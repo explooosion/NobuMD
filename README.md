@@ -1,5 +1,6 @@
 # NobuMD
-about dota2nobu guide
+信長攻略網站開發，期望能夠再度復活。
 
-## Design
+
+### Design
 [hackmd](https://hackmd.io/s/ryX8q_7v-)
