@@ -3,39 +3,52 @@
   "project": {
     "name": "nobumd-f"
   },
-  "apps": [
-    {
-      "root": "src",
-      "outDir": "dist",
-      "assets": [
-        "assets",
-        "favicon.ico"
-      ],
-      "index": "index.html",
-      "main": "main.ts",
-      "polyfills": "polyfills.ts",
-      "test": "test.ts",
-      "tsconfig": "tsconfig.app.json",
-      "testTsconfig": "tsconfig.spec.json",
-      "prefix": "app",
-      "styles": [
-        "styles.css"
-      ],
-      "scripts": [],
-      "environmentSource": "environments/environment.ts",
-      "environments": {
-        "dev": "environments/environment.ts",
-        "prod": "environments/environment.prod.ts"
-      }
+  "apps": [{
+    "root": "src",
+    "outDir": "dist",
+    "assets": [
+      "assets",
+      "favicon.ico",
+      "css",
+      "scss",
+      "img",
+      "js",
+      "mail"
+    ],
+    "index": "index.html",
+    "main": "main.ts",
+    "polyfills": "polyfills.ts",
+    "test": "test.ts",
+    "tsconfig": "tsconfig.app.json",
+    "testTsconfig": "tsconfig.spec.json",
+    "prefix": "app",
+    "styles": [
+      "styles.css",
+      "../node_modules/font-awesome/css/font-awesome.min.css",
+      "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+      "../plugin/datatables/dataTables.bootstrap4.css"
+    ],
+    "scripts": [
+      "../plugin/tether/tether.min.js",
+      "../node_modules/jquery/dist/jquery.min.js",
+      "../plugin/jquery-easing/jquery.easing.min.js",
+      "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+      "../plugin/datatables/jquery.dataTables.js",
+      "../plugin/datatables/dataTables.bootstrap4.js",
+      "../node_modules/chart.js/dist/Chart.bundle.min.js"
+    ],
+    "environmentSource": "environments/environment.ts",
+    "environments": {
+      "dev": "environments/environment.ts",
+      "prod": "environments/environment.prod.ts"
     }
-  ],
+  }],
   "e2e": {
     "protractor": {
       "config": "./protractor.conf.js"
     }
   },
-  "lint": [
-    {
+  "lint": [{
       "project": "src/tsconfig.app.json",
       "exclude": "**/node_modules/**"
     },
