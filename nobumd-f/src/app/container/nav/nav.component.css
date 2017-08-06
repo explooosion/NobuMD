@@ -1,0 +1,93 @@
+#mainNav {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* border: none; */
+  border-bottom: 2px solid #171717;
+  background: #1A1A1A;
+}
+
+#mainNav a:focus {
+  outline: none;
+}
+
+#mainNav .navbar-brand {
+  background-image: url('/img/logo-dota2.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 400px;
+  height: 50px;
+}
+
+#mainNav .navbar-brand:hover,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand.active {
+  color: white;
+}
+
+#mainNav .navbar-nav {
+  letter-spacing: 1px;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: white;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #18BC9C;
+  outline: none;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:focus,
+#mainNav .navbar-nav li.nav-item a.nav-link:active {
+  color: white;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 14px;
+  padding: 11px;
+  text-transform: uppercase;
+  color: white;
+  border-color: white;
+}
+
+#mainNav .navbar-toggler:hover,
+#mainNav .navbar-toggler:focus {
+  color: white;
+  border-color: #18BC9C;
+  background-color: #18BC9C;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding: 25px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+  }
+  #mainNav .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+    color: white;
+    border-radius: 3px;
+    background: #18BC9C;
+  }
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active {
+    color: white;
+    background: #18BC9C;
+  }
+  #mainNav.navbar-shrink {
+    padding: 10px 0;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+    height: 40px;
+  }
+}

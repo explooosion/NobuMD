@@ -1,0 +1,28 @@
+#guides {
+  background-image: url('/img/background.jpg');
+  background-position: center top;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#guides .container {
+  padding: 30px 40px;
+  color: #fff;
+  background: #222;
+}
+
+#guides .title {
+  margin-bottom: 20px;
+}
+
+#guides .search-box {
+  padding: 20px;
+  margin: 15px 0;
+  background: #1A1A1A;
+}
+
+#guides .col-2[data-type='img'] {
+  height: 180px;
+  background: url('http://fakeimg.pl/180x180/?text=Charactor') no-repeat center center;
+  border: 8px solid #222;
+}

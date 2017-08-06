@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('css/nav-fix.css');
+@import url('css/scroll-top.css');
+@import url('css/button.css');
+
+/* end of import */
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  padding: 150px 0;
+}
+
+section h2 {
+  font-size: 3em;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
+}

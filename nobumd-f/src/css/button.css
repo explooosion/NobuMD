@@ -1,0 +1,17 @@
+.btn {
+  border: none;
+  outline: none;
+}
+
+.btn.btn-primary {
+  border: none;
+  background: #3C5B9B;
+}
+
+.btn.btn-primary:hover {
+  background: #375490;
+}
+
+.btn.btn-primary:focus {
+  color: #fff;
+}
