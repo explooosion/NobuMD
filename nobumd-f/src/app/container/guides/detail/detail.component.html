@@ -1,9 +1,6 @@
 <section id="detail">
   <div class="container">
 
-    <h4 class="title text-left">角色攻略 - Charactor1</h4>
-    <hr>
-
     <div class="detail-group container">
       <div class="row detail-title">
         <h3>標準玩法</h3>
@@ -12,14 +9,14 @@
         <div class="col-4 detail-head">
           <div class="detail-name">
             <img src="/img/hero/a01.png" alt="">
-            <span>Charactor1</span>
+            <span>德川家康</span>
           </div>
           <p>TABLE OF CONTENTS</p>
           <ol class="detail-guide">
-            <li><a href="#">技能介紹</a></li>
-            <li><a href="#">起手出裝</a></li>
+            <li><a href="#skillintro">技能介紹</a></li>
+            <li><a href="#">起手裝備</a></li>
             <li><a href="#">推薦出裝</a></li>
-            <li><a href="#">技能配置</a></li>
+            <li><a href="#abilities">技能配置</a></li>
             <li><a href="#">遊玩心得</a></li>
             <li><a href="#">角色相剋</a></li>
           </ol>
@@ -40,23 +37,165 @@
                 </a>
               </div>
               <div class="col-2">
-                <span>UPDATED</span>
-                <span>3 hours ago</span>
+                <span>最後更新</span>
+                <span class="detail-info-item">3 hours ago</span>
               </div>
               <div class="col-3">
-                <span>VIEWS</span>
-                <span><i class="fa fa-user"></i>15.6K</span>
+                <span>瀏覽次數</span>
+                <span class="detail-info-item"><i class="fa fa-user"></i>15.6K</span>
               </div>
               <div class="col-3">
-                <span>COMMENTS</span>
-                <span><i class="fa fa-comments"></i>10</span>
+                <span>留言筆數</span>
+                <span class="detail-info-item"><i class="fa fa-comments"></i>10</span>
               </div>
             </div>
-            <div class="detail-author row"></div>
+            <div class="detail-analysis row">
+              <div class="col-6">
+                <h5>英雄分析（ 1-10 ）</h5>
+                <div class="analysis-char">
+                  <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType" (chartHover)="chartHovered($event)"
+                    (chartClick)="chartClicked($event)" [options]="doughnutChartOption"></canvas>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="detail-author">
+                  <h5>作者</h5>
+                  <a href="#"><img src="/img/profile/user/me.png" alt="">Robby</a>
+                </div>
+                <div class="detail-share">
+                  <h5>分享</h5>
+                  <ul class="navbar">
+                    <li><a class="btn btn-success"><i class="fa fa-star" aria-hidden="true"></i>文章評分</a></li>
+                    <li><a class="btn btn-primary"><i class="fa fa-comments" aria-hidden="true"></i>留言回覆</a></li>
+                    <li><a class="btn btn-danger"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>問題回報</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div id="skillintro" class="panel-group container">
+      <div class="row">
+        <div class="col-12 panel">
+          <div class="panel-head">
+            <a class="panel-control">
+              <h4><i class="fa fa-paw" aria-hidden="true"></i>技能介紹</h4>
+            </a>
+          </div>
+          <div class="panel-body">
+            <p>技能說明區塊</p>
+            <p>合計應該會有八張圖片（v11 v16）</p>
+            <p>技能圖片*8 hover show info</p>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="panel-group container">
+      <div class="row">
+        <div class="col-12 panel">
+          <div class="panel-head">
+            <a class="panel-control">
+              <h4><i class="fa fa-paw" aria-hidden="true"></i>起手裝備</h4>
+            </a>
+          </div>
+          <div class="panel-body">
+            <p>起手出裝區塊</p>
+            <p>褲子跟什麼綱的都貼上來</p>
+            <p>hover show info</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-group container">
+      <div class="row">
+        <div class="col-12 panel">
+          <div class="panel-head">
+            <a class="panel-control">
+              <h4><i class="fa fa-paw" aria-hidden="true"></i>推薦出裝</h4>
+            </a>
+          </div>
+          <div class="panel-body">
+            <p>推薦出裝區塊</p>
+            <p>可能的完整配法</p>
+            <p>視情況也許要用前中後期 三種分類</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="abilities" class="panel-group container">
+      <div class="row">
+        <div class="col-12 panel">
+          <div class="panel-head">
+            <a class="panel-control">
+              <h4><i class="fa fa-paw" aria-hidden="true"></i>技能配置</h4>
+            </a>
+          </div>
+          <div class="panel-body">
+            <p>技能配置區塊</p>
+            <p>1-20等級 推薦的配點</p>
+            <p>技能圖片*8 hover show info</p>
+            <p>分不同版本</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-group container">
+      <div class="row">
+        <div class="col-12 panel">
+          <div class="panel-head">
+            <a class="panel-control">
+              <h4><i class="fa fa-paw" aria-hidden="true"></i>遊玩心得</h4>
+            </a>
+          </div>
+          <div class="panel-body">
+            <p>遊玩心得區塊</p>
+            <p>就個人的心得分享</p>
+            <p>這應該要找編輯器 plugin</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-group container">
+      <div class="row">
+        <div class="col-12 panel">
+          <div class="panel-head">
+            <a class="panel-control">
+              <h4><i class="fa fa-paw" aria-hidden="true"></i>角色相剋</h4>
+            </a>
+          </div>
+          <div class="panel-body">
+            <p>角色相剋區塊</p>
+            <p>列出可能相剋的角色圖片</p>
+            <p>這部分可能後期再動工</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-group container">
+      <div class="row">
+        <div class="col-12 panel">
+          <div class="panel-head">
+            <a class="panel-control">
+              <h4><i class="fa fa-paw" aria-hidden="true"></i>留言板</h4>
+            </a>
+          </div>
+          <div class="panel-body">
+            <p>留言板區塊</p>
+            <p>使用 fb or disqus</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>

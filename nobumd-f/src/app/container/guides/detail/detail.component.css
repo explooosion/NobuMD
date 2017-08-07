@@ -8,21 +8,16 @@
 #detail>.container {
   padding: 30px 20px;
   color: #fff;
-  background: #222;
-}
-
-#detail .title {
-  margin-bottom: 20px;
+  background: #242424;
 }
 
 #detail .detail-group {
   padding-top: 10px;
-  height: 600px;
   border-radius: 6px;
   background-image: url('/img/article/box/demo.jpg');
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% auto;
 }
 
 .detail-group>.row {
@@ -45,7 +40,7 @@
 .detail-group .detail-head {
   padding: 15px;
   border-radius: 6px;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, .8);
 }
 
 .detail-head .detail-name>img {
@@ -72,11 +67,11 @@
 }
 
 .detail-head .detail-guide li {
+  margin: 6px 0;
   color: #eabc00;
 }
 
 .detail-head .detail-guide li a {
-  margin: 2px 0;
   color: inherit;
   text-decoration: unset;
   transition: all .2s ease-in-out;
@@ -93,7 +88,7 @@
 .detail-group .detail-info {
   padding: 15px;
   border-radius: 6px;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, .8);
 }
 
 .detail-info a {
@@ -110,9 +105,85 @@
   color: #C50012;
 }
 
-.detail-group .detail-author {
+.detail-info .detail-info-item {
+  display: block;
+  color: #ffcd03;
+  font-size: 14px;
+}
+
+.detail-info .detail-info-item>i {
+  margin-right: 5px;
+}
+
+.detail-group .detail-analysis {
   margin-top: 10px;
   padding: 15px;
   border-radius: 6px;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.detail-group .detail-analysis .analysis-char {
+  padding: 10px;
+  display: block;
+}
+
+.detail-group .detail-author a {
+  display: block;
+  margin: 15px 0;
+  color: #ffcd03;
+  font-size: 24px;
+  text-decoration: unset;
+}
+
+.detail-group .detail-author a:hover {
+  color: #fff;
+}
+
+.detail-group .detail-author img {
+  margin-right: 10px;
+  height: 50px;
+}
+
+.detail-group .detail-share a {
+  display: block;
+  margin: 5px 0;
+}
+
+.detail-group .detail-share a>i {
+  margin-right: 5px;
+}
+
+
+/******** 導覽面板  ***********/
+
+.panel-group {
+  display: block;
+  padding: 20px 35px;
+  margin-top: 20px;
+  background-color: #333;
+  border-radius: 6px;
+}
+
+.panel {
+  background-color: #1A1A1A;
+  border-radius: 6px;
+}
+
+.panel .panel-body {
+  overflow-y: hidden;
+}
+
+.panel .panel-toggle {
+  height: 0px;
+}
+
+.panel .panel-head {
+  padding: 18px 10px;
+  margin-bottom: 20px;
+  height: 60px;
+  border-bottom: 1px solid #333;
+}
+
+.panel .panel-control i {
+  margin-right: 10px;
 }

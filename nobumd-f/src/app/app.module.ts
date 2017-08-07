@@ -24,13 +24,15 @@ import { CharactorSearchPipe } from './pipe/charactor/charactor-search.pipe';
 /**
  * Plugin
  */
+import { ChartsModule } from 'ng2-charts';
+
 
 const appRoutes: Routes = [
   { path: 'guides', component: GuidesComponent },
   { path: 'guides/article/charactor/:id', component: ArticleComponent },
   { path: 'guides/article/:id', component: DetailComponent },
   { path: '', component: HomeComponent },
-  // { path: '**', component: HomeComponent },
+  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({
@@ -54,6 +56,7 @@ const appRoutes: Routes = [
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
     ),
+    ChartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
