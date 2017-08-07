@@ -1,0 +1,84 @@
+#guides {
+  background-image: url('/img/background.jpg');
+  background-position: center top;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#guides .container {
+  padding: 30px 40px;
+  color: #fff;
+  background: #222;
+}
+
+#guides .title {
+  margin-bottom: 20px;
+}
+
+#guides .search-box {
+  padding: 30px 20px 10px;
+  margin: 15px 0;
+  background: #1A1A1A;
+}
+
+#guides .search-box .col-form-label {
+  margin-left: 20px;
+}
+
+#guides .col-2[data-type='img'] {
+  height: 180px;
+  background: url('http://fakeimg.pl/180x180/?text=Charactor') no-repeat center center;
+  border: 8px solid #222;
+}
+
+#guides .search-box .filter-type>div {
+  padding-top: 6px;
+}
+
+#guides .guides-group {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.guides-group .guides-box {
+  display: inline-block;
+}
+
+.guides-group .guides-box a {
+  position: relative;
+  display: inline-block;
+  margin: 3px 6px;
+  width: 120px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  border: 1px solid #111;
+  border-radius: 6px;
+  box-shadow: 0 0 2px rgb(0, 0, 0);
+  opacity: .9;
+  /* background: url('http://fakeimg.pl/140x140/?text=Charactor') no-repeat center center; */
+}
+
+.guides-group .guides-box a:hover {
+  opacity: 1;
+}
+
+.guides-group .guides-box a:hover .guides-name {
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.guides-group .guides-box .guides-name {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 32px;
+  color: gold;
+  background-color: rgba(0, 0, 0, .6);
+  text-align: center;
+  font-size: 14px;
+  line-height: 32px;
+}
