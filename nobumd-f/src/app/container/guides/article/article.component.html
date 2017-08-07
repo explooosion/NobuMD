@@ -1,53 +1,40 @@
-<section id="guides">
+<section id="article">
   <div class="container">
 
-    <h4 class="title text-left">角色攻略</h4>
+    <h4 class="title text-left">角色攻略 - Charactor1</h4>
     <hr>
     <div class="search-box">
-      <form>
-        <div class="form-group row filter-name">
-          <label class="col-form-label">角色名字：</label>
-          <div class="col-sm-5">
-            <input type="text" name="search" class="form-control" placeholder="請輸入關鍵字">
-          </div>
-        </div>
-        <div class="form-group row filter-type">
-          <label class="col-form-label">選擇軍別：</label>
-          <div class="col-sm-5">
-            <label class="custom-control custom-radio">
-              <input id="radioAll" name="radio-filter" value="" [(ngModel)]="filterkey" type="radio" class="custom-control-input">
-              <span class="custom-control-indicator"></span>
-              <span class="custom-control-description">全部</span>
-            </label>
-            <label class="custom-control custom-radio">
-              <input id="radioA" name="radio-filter"  value="a" [(ngModel)]="filterkey" type="radio" class="custom-control-input">
-              <span class="custom-control-indicator"></span>
-              <span class="custom-control-description">織田軍</span>
-            </label>
-            <label class="custom-control custom-radio">
-              <input id="radioB" name="radio-filter"  value="b" [(ngModel)]="filterkey" type="radio" class="custom-control-input">
-              <span class="custom-control-indicator"></span>
-              <span class="custom-control-description">聯合軍</span>
-            </label>
-            <label class="custom-control custom-radio">
-              <input id="radioC" name="radio-filter" value="c" [(ngModel)]="filterkey" type="radio" class="custom-control-input">
-              <span class="custom-control-indicator"></span>
-              <span class="custom-control-description">中立軍</span>
-            </label>
-          </div>
-
-        </div>
-      </form>
+      <select class="custom-select"> 
+        <option value="0" selected>評分</option>
+        <option value="1">瀏覽次數</option>
+        <option value="2">更新日期</option>
+        <option value="3">發表日期</option> 
+      </select>
+      <select class="custom-select"> 
+        <option value="0" selected>All</option> 
+        <option value="1">Top</option>
+        <option value="2">Mid</option>
+        <option value="3">Bottom</option>
+        <option value="4">CP</option>
+      </select>
     </div>
 
-    <ul class="guides-group">
-      <li class="guides-box" *ngFor="let charactor of charactorArr | charactorSearch:filterkey">
-        <a href="#" [style.backgroundImage]="'url(/img/hero/' + charactor.img  +')'">
-          <span class="guides-name">{{ charactor.name }}</span>
-        </a>
-      </li>
-    </ul>
-
+    <div class="article-list container">
+      <div class="row">
+        <div class="article-position">
+          T<br>O<br>P
+        </div>
+        <div class="article-detail">
+          <img src="img/hero/a01.png" alt="">
+          <div class="article-info">
+            <h5>標準玩法</h5>
+            <span class="article-author">Robby</span>
+            <span class="article-item">最後發表：</span>
+            <span class="article-item">建立日期：</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 </section>

@@ -1,84 +1,77 @@
-#guides {
+#article {
   background-image: url('/img/background.jpg');
   background-position: center top;
   background-size: 100%;
   background-attachment: fixed;
 }
 
-#guides .container {
-  padding: 30px 40px;
+#article>.container {
+  padding: 30px 20px;
   color: #fff;
   background: #222;
 }
 
-#guides .title {
+#article .title {
   margin-bottom: 20px;
 }
 
-#guides .search-box {
-  padding: 30px 20px 10px;
-  margin: 15px 0;
-  background: #1A1A1A;
+#article .search-box {
+  margin-bottom: 30px;
 }
 
-#guides .search-box .col-form-label {
-  margin-left: 20px;
-}
-
-#guides .col-2[data-type='img'] {
-  height: 180px;
-  background: url('http://fakeimg.pl/180x180/?text=Charactor') no-repeat center center;
-  border: 8px solid #222;
-}
-
-#guides .search-box .filter-type>div {
-  padding-top: 6px;
-}
-
-#guides .guides-group {
-  display: block;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.guides-group .guides-box {
-  display: inline-block;
-}
-
-.guides-group .guides-box a {
-  position: relative;
-  display: inline-block;
-  margin: 3px 6px;
-  width: 120px;
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100%;
-  border: 1px solid #111;
+#article .search-box .custom-select {
   border-radius: 6px;
-  box-shadow: 0 0 2px rgb(0, 0, 0);
-  opacity: .9;
-  /* background: url('http://fakeimg.pl/140x140/?text=Charactor') no-repeat center center; */
+  box-shadow: 0 0 2px #000000;
 }
 
-.guides-group .guides-box a:hover {
-  opacity: 1;
+#article .article-list {
+  height: 500px;
+  background-color: #333;
 }
 
-.guides-group .guides-box a:hover .guides-name {
-  background-color: rgba(0, 0, 0, .7);
+.article-list>.row {
+  height: 120px;
+  border: 2px solid #111;
 }
 
-.guides-group .guides-box .guides-name {
+.article-list .article-position {
+  float: left;
+  padding: 20px 8px;
+  max-width: 25px;
+  border-right: 1px solid #111;
+  background: linear-gradient(to right, #116178 0%, #227e98 100%);
+}
+
+.article-list .article-detail {
+  float: left;
+  padding: 8px;
+  width: calc(100% - 25px);
+  background-color: rgba(30, 57, 82, .5);
+}
+
+.article-list img {
+  float: left;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #111;
+  box-shadow: 0 0 2px #000;
+  border-radius: 6px;
+}
+
+.article-list .article-info {
+  float: left;
+  margin-left: 10px;
+}
+
+.article-list .article-info span {
   display: block;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 32px;
-  color: gold;
-  background-color: rgba(0, 0, 0, .6);
-  text-align: center;
   font-size: 14px;
-  line-height: 32px;
+}
+
+.article-list .article-info .article-author {
+  color: #eabc00;
+}
+
+.article-list .article-info .article-item {
+  color: #ddd;
 }

@@ -13,12 +13,12 @@ import { FooterComponent } from './container/footer/footer.component';
 import { HomeComponent } from './container/home/home.component';
 import { GuidesComponent } from './container/guides/guides.component';
 import { BannerComponent } from './component/banner/banner.component';
+import { ArticleComponent } from './container/guides/article/article.component';
 
 /**
  * Pipe
  */
 import { CharactorSearchPipe } from './pipe/charactor/charactor-search.pipe';
-import { ArticleComponent } from './container/guides/article/article.component';
 
 /**
  * Plugin
@@ -26,6 +26,8 @@ import { ArticleComponent } from './container/guides/article/article.component';
 
 const appRoutes: Routes = [
   { path: 'guides', component: GuidesComponent },
+  { path: 'guides/article/:id', component: ArticleComponent },
+  { path: '', component: HomeComponent },
   { path: '**', component: HomeComponent },
 ];
 
