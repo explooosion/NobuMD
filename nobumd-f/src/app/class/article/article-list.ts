@@ -8,7 +8,7 @@ export class ArticleList {
         public author: string,
         public last: string,
         public create: string,
-        public caption: string,
+        public caption: object,
         public scoreup: number,
         public scoredn: number,
         public views: number,

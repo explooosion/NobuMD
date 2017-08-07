@@ -7,7 +7,16 @@
     "author": "Robby",
     "last": "2017/08/07 10:15",
     "create": "2017/08/01 23:40",
-    "caption": ["fresh", "stale", "featured", "current"],
+    "caption": [{
+      "status": "新鮮",
+      "class": "badge-success"
+    }, {
+      "status": "精選",
+      "class": "badge-danger"
+    }, {
+      "status": "特殊",
+      "class": "badge-primary"
+    }],
     "scoreup": 4,
     "scoredn": 1,
     "views": 4379372,
@@ -22,7 +31,13 @@
     "author": "Robby",
     "last": "2017/08/02 11:34",
     "create": "2017/07/31 14:21",
-    "caption": ["fresh", "stale", "featured", "current"],
+    "caption": [{
+      "status": "精選",
+      "class": "badge-danger"
+    }, {
+      "status": "特殊",
+      "class": "badge-primary"
+    }],
     "scoreup": 42,
     "scoredn": 12,
     "views": 6782143,
@@ -36,7 +51,16 @@
     "author": "Robby",
     "last": "2017/08/07 10:15",
     "create": "2017/08/01 23:40",
-    "caption": ["fresh", "stale", "featured", "current"],
+    "caption": [{
+      "status": "新鮮",
+      "class": "badge-success"
+    }, {
+      "status": "精選",
+      "class": "badge-danger"
+    }, {
+      "status": "特殊",
+      "class": "badge-primary"
+    }],
     "scoreup": 4,
     "scoredn": 1,
     "views": 4379372,
@@ -51,7 +75,13 @@
     "author": "Robby",
     "last": "2017/08/02 11:34",
     "create": "2017/07/31 14:21",
-    "caption": ["fresh", "stale", "featured", "current"],
+    "caption": [{
+      "status": "特殊",
+      "class": "badge-primary"
+    }, {
+      "status": "陳舊",
+      "class": "badge-default"
+    }],
     "scoreup": 42,
     "scoredn": 12,
     "views": 6782143,
@@ -65,7 +95,13 @@
     "author": "Robby",
     "last": "2017/08/07 10:15",
     "create": "2017/08/01 23:40",
-    "caption": ["fresh", "stale", "featured", "current"],
+    "caption": [{
+      "status": "新鮮",
+      "class": "badge-success"
+    }, {
+      "status": "精選",
+      "class": "badge-danger"
+    }],
     "scoreup": 4,
     "scoredn": 1,
     "views": 4379372,
@@ -80,7 +116,16 @@
     "author": "Robby",
     "last": "2017/08/02 11:34",
     "create": "2017/07/31 14:21",
-    "caption": ["fresh", "stale", "featured", "current"],
+    "caption": [{
+      "status": "新鮮",
+      "class": "badge-success"
+    }, {
+      "status": "精選",
+      "class": "badge-danger"
+    }, {
+      "status": "特殊",
+      "class": "badge-primary"
+    }],
     "scoreup": 42,
     "scoredn": 12,
     "views": 6782143,
@@ -94,7 +139,13 @@
     "author": "Robby",
     "last": "2017/08/07 10:15",
     "create": "2017/08/01 23:40",
-    "caption": ["fresh", "stale", "featured", "current"],
+    "caption": [{
+      "status": "新鮮",
+      "class": "badge-success"
+    }, {
+      "status": "精選",
+      "class": "badge-danger"
+    }],
     "scoreup": 4,
     "scoredn": 1,
     "views": 4379372,
@@ -109,7 +160,16 @@
     "author": "Robby",
     "last": "2017/08/02 11:34",
     "create": "2017/07/31 14:21",
-    "caption": ["fresh", "stale", "featured", "current"],
+    "caption": [{
+      "status": "精選",
+      "class": "badge-danger"
+    }, {
+      "status": "特殊",
+      "class": "badge-primary"
+    }, {
+      "status": "陳舊",
+      "class": "badge-default"
+    }],
     "scoreup": 42,
     "scoredn": 12,
     "views": 6782143,

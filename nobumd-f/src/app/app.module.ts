@@ -30,7 +30,7 @@ const appRoutes: Routes = [
   { path: 'guides/article/charactor/:id', component: ArticleComponent },
   { path: 'guides/article/:id', component: DetailComponent },
   { path: '', component: HomeComponent },
-  { path: '**', component: HomeComponent },
+  // { path: '**', component: HomeComponent },
 ];
 
 @NgModule({

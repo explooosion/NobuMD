@@ -14,3 +14,95 @@
 #detail .title {
   margin-bottom: 20px;
 }
+
+#detail .detail-group {
+  padding-top: 10px;
+  height: 600px;
+  border-radius: 6px;
+  background-image: url('/img/article/box/demo.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.detail-group>.row {
+  padding: 10px 20px;
+}
+
+.detail-group .detail-title {
+  padding-left: 0;
+  width: 98%;
+  margin: 0 auto;
+  border-bottom: 1px solid #222;
+}
+
+.detail-group .detail-title h3 {
+  color: #FFEE99;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.detail-group .detail-head {
+  padding: 15px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.detail-head .detail-name>img {
+  width: 70px;
+  height: 70px;
+}
+
+.detail-head .detail-name>span {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.detail-head>p {
+  margin: 10px;
+  color: #999;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.detail-head .detail-guide {
+  margin-left: 50px;
+  list-style-type: decimal;
+}
+
+.detail-head .detail-guide li {
+  color: #eabc00;
+}
+
+.detail-head .detail-guide li a {
+  margin: 2px 0;
+  color: inherit;
+  text-decoration: unset;
+  transition: all .2s ease-in-out;
+}
+
+.detail-head .detail-guide li:hover a:hover {
+  margin-left: 10px;
+}
+
+.detail-head .detail-guide li a:hover {
+  color: #fff;
+}
+
+.detail-group .detail-info {
+  padding: 15px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.detail-info a {
+  font-size: 18px;
+}
+
+.detail-group .detail-author {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, .7);
+}

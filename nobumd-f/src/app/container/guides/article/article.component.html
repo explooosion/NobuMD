@@ -30,16 +30,13 @@
           <span class="guides-name">{{ article.charactor }}</span>
           </a>
           <div class="article-info">
-            <a class="article-title" href="#">{{ article.title }}</a>
+            <a class="article-title" [routerLink]="'/guides/article/'+ article.id" routerLinkActive="active">{{ article.title }}</a>
             <a class="article-author" href="#">{{ article.author }}</a>
             <span class="article-modified">{{ article.last }}</span>
             <span class="article-create">{{ article.create}}</span>
           </div>
           <div class="article-caption">
-            <label class="caption caption-fresh">新鮮</label>
-            <label class="caption caption-stale">陳舊</label>
-            <label class="caption caption-featured">精選</label>
-            <label class="caption caption-current">特殊</label>
+            <span *ngFor="let caption of article.caption" [ngClass]="['badge', caption.class]">{{ caption.status }}</span>
           </div>
           <div class="article-score">
             <div class="score">
