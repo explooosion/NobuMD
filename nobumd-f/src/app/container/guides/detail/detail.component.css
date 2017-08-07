@@ -67,7 +67,7 @@
 }
 
 .detail-head .detail-guide {
-  margin-left: 50px;
+  margin-left: 80px;
   list-style-type: decimal;
 }
 
@@ -97,7 +97,17 @@
 }
 
 .detail-info a {
-  font-size: 18px;
+  font-size: 24px;
+  text-decoration: unset;
+  line-height: 45px;
+}
+
+.detail-info .thumbs-up {
+  color: #4CAF00;
+}
+
+.detail-info .thumbs-down {
+  color: #C50012;
 }
 
 .detail-group .detail-author {
