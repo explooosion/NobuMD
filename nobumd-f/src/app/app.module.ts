@@ -14,6 +14,7 @@ import { HomeComponent } from './container/home/home.component';
 import { GuidesComponent } from './container/guides/guides.component';
 import { BannerComponent } from './component/banner/banner.component';
 import { ArticleComponent } from './container/guides/article/article.component';
+import { DetailComponent } from './container/guides/detail/detail.component';
 
 /**
  * Pipe
@@ -26,7 +27,8 @@ import { CharactorSearchPipe } from './pipe/charactor/charactor-search.pipe';
 
 const appRoutes: Routes = [
   { path: 'guides', component: GuidesComponent },
-  { path: 'guides/article/:id', component: ArticleComponent },
+  { path: 'guides/article/charactor/:id', component: ArticleComponent },
+  { path: 'guides/article/:id', component: DetailComponent },
   { path: '', component: HomeComponent },
   { path: '**', component: HomeComponent },
 ];
@@ -41,6 +43,7 @@ const appRoutes: Routes = [
     BannerComponent,
     CharactorSearchPipe,
     ArticleComponent,
+    DetailComponent,
   ],
   imports: [
     BrowserModule,

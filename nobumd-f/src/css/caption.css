@@ -1,0 +1,24 @@
+.caption {
+  padding: 2px 8px;
+  margin: 0 2px;
+  color: #222;
+  border-radius: 4px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.caption.caption-fresh {
+  background-color: #66CC00;
+}
+
+.caption.caption-stale {
+  background-color: #BB8800;
+}
+
+.caption.caption-featured {
+  background-color: #00AACC;
+}
+
+.caption.caption-current {
+  background-color: #CCCC00;
+}

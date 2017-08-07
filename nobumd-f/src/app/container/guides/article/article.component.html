@@ -1,7 +1,7 @@
 <section id="article">
   <div class="container">
 
-    <h4 class="title text-left">角色攻略 - Charactor1</h4>
+    <h4 class="title text-left">文章列表 - Charactor1</h4>
     <hr>
     <div class="search-box">
       <select class="custom-select"> 
@@ -20,17 +20,46 @@
     </div>
 
     <div class="article-list container">
-      <div class="row">
+      <div class="row" *ngFor="let article of articleArr">
         <div class="article-position">
           T<br>O<br>P
         </div>
         <div class="article-detail">
-          <img src="img/hero/a01.png" alt="">
+          <a class="guides-photo" [style.backgroundImage]="'url(/img/hero/' + article.img  +')'" [routerLink]="'/guides/article/'+ article.id"
+            routerLinkActive="active">
+          <span class="guides-name">{{ article.charactor }}</span>
+          </a>
           <div class="article-info">
-            <h5>標準玩法</h5>
-            <span class="article-author">Robby</span>
-            <span class="article-item">最後發表：</span>
-            <span class="article-item">建立日期：</span>
+            <a class="article-title" href="#">{{ article.title }}</a>
+            <a class="article-author" href="#">{{ article.author }}</a>
+            <span class="article-modified">{{ article.last }}</span>
+            <span class="article-create">{{ article.create}}</span>
+          </div>
+          <div class="article-caption">
+            <label class="caption caption-fresh">新鮮</label>
+            <label class="caption caption-stale">陳舊</label>
+            <label class="caption caption-featured">精選</label>
+            <label class="caption caption-current">特殊</label>
+          </div>
+          <div class="article-score">
+            <div class="score">
+              <img src="img/article/thumbsup.png" alt="">
+              <span class="score-up">{{ article.scoreup }}</span>
+            </div>
+            <div class="score">
+              <img src="img/article/thumbsdn.png" alt="">
+              <span class="score-dn">{{ article.scoredn }}</span>
+            </div>
+          </div>
+          <div class="article-record">
+            <div class="record">
+              <span class="record-count">{{ article.views }}</span>
+              <span class="record-name">VIEWS</span>
+            </div>
+            <div class="record">
+              <span class="record-count">{{ article.comments }}</span>
+              <span class="record-name">COMMENTS</span>
+            </div>
           </div>
         </div>
       </div>
