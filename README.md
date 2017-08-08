@@ -16,3 +16,6 @@
 
 1. [hackmd](https://hackmd.io/s/ryX8q_7v-)
 2. 請查看 /meeting 裡面
+
+### 四、License
+MIT
