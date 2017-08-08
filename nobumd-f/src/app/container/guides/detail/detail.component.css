@@ -189,27 +189,50 @@
   margin-right: 10px;
 }
 
-
-/* skillintro */
-
-#skill .skill-version {
+.panel .panel-body .group-version {
   color: #ffcd03;
 }
 
-#skill .skill-nav {
-  margin: 15px 0 10px;
+
+/* skill */
+
+#skill ul {
+  margin: 20px 0 10px;
 }
 
-#skill .skill-nav li {
+#skill ul li {
   display: inline-block;
   margin-right: 5px;
   width: 80px;
   height: 80px;
-  border: 1px solid #222;
-  border-radius: 6px;
 }
 
-#skill .skill-nav li img {
+#skill ul li img {
   width: inherit;
   height: inherit;
+  border: 1px solid #222;
+  border-radius: 8px;
+  box-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+
+/* equip-start */
+
+#equip-start ul {
+  margin: 20px 0 10px;
+}
+
+#equip-start ul li {
+  display: inline-block;
+  margin-right: 5px;
+  width: 80px;
+  height: 80px;
+}
+
+#equip-start ul li img {
+  width: inherit;
+  height: inherit;
+  border: 1px solid #222;
+  border-radius: 8px;
+  box-shadow: 0 0 2px rgb(0, 0, 0);
 }
