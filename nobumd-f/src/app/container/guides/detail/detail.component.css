@@ -150,7 +150,7 @@
 }
 
 .detail-group .detail-share a>i {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 
@@ -193,6 +193,13 @@
   color: #ffcd03;
 }
 
+.panel .panel-body .during {
+  margin: 10px 0 0 0;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
 
 /* skill */
 
@@ -203,8 +210,8 @@
 #skill ul li {
   display: inline-block;
   margin-right: 5px;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 #skill ul li img {
@@ -225,11 +232,33 @@
 #equip-start ul li {
   display: inline-block;
   margin-right: 5px;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 #equip-start ul li img {
+  width: inherit;
+  height: inherit;
+  border: 1px solid #222;
+  border-radius: 8px;
+  box-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+
+/* equip-final */
+
+#equip-final ul {
+  margin: 20px 0 10px;
+}
+
+#equip-final ul li {
+  display: inline-block;
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+#equip-final ul li img {
   width: inherit;
   height: inherit;
   border: 1px solid #222;
