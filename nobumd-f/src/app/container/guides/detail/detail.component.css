@@ -167,6 +167,7 @@
 .panel {
   background-color: #1A1A1A;
   border-radius: 6px;
+  padding-bottom: 20px;
 }
 
 .panel .panel-body {
@@ -186,4 +187,29 @@
 
 .panel .panel-control i {
   margin-right: 10px;
+}
+
+
+/* skillintro */
+
+#skill .skill-version {
+  color: #ffcd03;
+}
+
+#skill .skill-nav {
+  margin: 15px 0 10px;
+}
+
+#skill .skill-nav li {
+  display: inline-block;
+  margin-right: 5px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #222;
+  border-radius: 6px;
+}
+
+#skill .skill-nav li img {
+  width: inherit;
+  height: inherit;
 }
