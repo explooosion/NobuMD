@@ -25,6 +25,7 @@ import { CharactorSearchPipe } from './pipe/charactor/charactor-search.pipe';
  * Plugin
  */
 import { ChartsModule } from 'ng2-charts';
+import { LogComponent } from './component/model/log/log.component';
 
 
 const appRoutes: Routes = [
@@ -46,6 +47,7 @@ const appRoutes: Routes = [
     CharactorSearchPipe,
     ArticleComponent,
     DetailComponent,
+    LogComponent,
   ],
   imports: [
     BrowserModule,

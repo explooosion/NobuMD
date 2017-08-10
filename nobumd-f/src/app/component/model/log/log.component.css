@@ -1,0 +1,13 @@
+#logUpdate .nav-log {
+    list-style-type: decimal;
+    color: #666;
+}
+
+#logUpdate .log-date {
+    color: darkkhaki;
+}
+
+#logUpdate .row {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
