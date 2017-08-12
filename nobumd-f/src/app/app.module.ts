@@ -29,16 +29,6 @@ import { CharactorSearchPipe } from './pipe/charactor/charactor-search.pipe';
 import { ChartsModule } from 'ng2-charts';
 import { LogComponent } from './component/model/log/log.component';
 
-
-// const appRoutes: Routes = [
-//   // { path: 'guides', loadChildren: './container/guides/guides.module' },
-//   { path: 'guides', component: GuidesComponent },
-//   { path: 'guides/article/charactor/:id', component: ArticleComponent },
-//   { path: 'guides/article/:id', component: DetailComponent },
-//   { path: '', component: HomeComponent },
-//   { path: '**', component: HomeComponent },
-// ];
-
 @NgModule({
   declarations: [
     AppComponent,
