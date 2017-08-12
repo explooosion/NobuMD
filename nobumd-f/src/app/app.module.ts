@@ -4,17 +4,19 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule, JsonpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
+import { routing } from './app.routing';
+
 /**
  * Component
  */
 import { AppComponent } from './app.component';
 import { NavComponent } from './container/nav/nav.component';
 import { FooterComponent } from './container/footer/footer.component';
+import { BannerComponent } from './component/banner/banner.component';
 import { HomeComponent } from './container/home/home.component';
 import { GuidesComponent } from './container/guides/guides.component';
-import { BannerComponent } from './component/banner/banner.component';
-import { ArticleComponent } from './container/guides/article/article.component';
 import { DetailComponent } from './container/guides/detail/detail.component';
+import { ArticleComponent } from './container/guides/article/article.component';
 
 /**
  * Pipe
@@ -28,13 +30,14 @@ import { ChartsModule } from 'ng2-charts';
 import { LogComponent } from './component/model/log/log.component';
 
 
-const appRoutes: Routes = [
-  { path: 'guides', component: GuidesComponent },
-  { path: 'guides/article/charactor/:id', component: ArticleComponent },
-  { path: 'guides/article/:id', component: DetailComponent },
-  { path: '', component: HomeComponent },
-  { path: '**', component: HomeComponent },
-];
+// const appRoutes: Routes = [
+//   // { path: 'guides', loadChildren: './container/guides/guides.module' },
+//   { path: 'guides', component: GuidesComponent },
+//   { path: 'guides/article/charactor/:id', component: ArticleComponent },
+//   { path: 'guides/article/:id', component: DetailComponent },
+//   { path: '', component: HomeComponent },
+//   { path: '**', component: HomeComponent },
+// ];
 
 @NgModule({
   declarations: [
@@ -54,10 +57,7 @@ const appRoutes: Routes = [
     FormsModule,
     HttpModule,
     JsonpModule,
-    RouterModule.forRoot(
-      appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
-    ),
+    routing,
     ChartsModule,
   ],
   providers: [],
