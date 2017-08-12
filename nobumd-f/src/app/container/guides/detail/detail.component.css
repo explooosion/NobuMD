@@ -189,15 +189,23 @@
   margin-right: 10px;
 }
 
-.panel .panel-body .group-version {
-  color: #ffcd03;
-}
-
 .panel .panel-body .during {
   margin: 10px 0 0 0;
   padding: 4px 8px;
   font-size: 14px;
   font-weight: normal;
+}
+
+
+/* glabel */
+
+.skill-discript img {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  box-shadow: 0 0 2px rgb(0, 0, 0);
 }
 
 
@@ -220,6 +228,13 @@
   border: 1px solid #222;
   border-radius: 8px;
   box-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+#skill .skill-discript {
+  background: #111;
+  padding: 10px;
+  letter-spacing: 0.5px;
+  text-align: justify;
 }
 
 

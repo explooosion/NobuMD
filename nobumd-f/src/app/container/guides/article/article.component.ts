@@ -26,6 +26,7 @@ export class ArticleComponent implements OnInit {
       .subscribe(
       result => {
         this.articleArr = result;
+        console.log(this.articleArr);
       });
   }
 }

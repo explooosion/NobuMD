@@ -118,8 +118,8 @@
 }
 
 .article-caption {
-  float: left;
-  margin: 30px 10px;
+  float: right;
+  margin: 30px 0;
   width: calc(100% / 4);
 }
 
@@ -132,8 +132,8 @@
 }
 
 .article-score {
-  float: left;
-  margin: 20px 20px;
+  float: right;
+  margin: 20px 0;
 }
 
 .article-score .score {

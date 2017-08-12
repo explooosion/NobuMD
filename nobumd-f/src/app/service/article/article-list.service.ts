@@ -23,6 +23,7 @@ export class ArticleListService {
         return data.map(d => {
           return new ArticleList(
             d.id,
+            d.version,
             d.position,
             d.charactor,
             d.img,

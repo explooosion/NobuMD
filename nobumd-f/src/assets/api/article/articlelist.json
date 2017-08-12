@@ -1,5 +1,6 @@
 [{
     "id": 1,
+    "version": 11,
     "position": "top",
     "charactor": "Charactor1",
     "img": "a01.png",
@@ -24,6 +25,7 @@
   },
   {
     "id": 2,
+    "version": 16,
     "position": "mid",
     "charactor": "Charactor2",
     "img": "a02.png",
@@ -44,6 +46,7 @@
     "comments": 241
   }, {
     "id": 3,
+    "version": 11,
     "position": "top",
     "charactor": "Charactor1",
     "img": "a03.png",
@@ -68,6 +71,7 @@
   },
   {
     "id": 4,
+    "version": 11,
     "position": "mid",
     "charactor": "Charactor2",
     "img": "a04.png",
@@ -88,6 +92,7 @@
     "comments": 241
   }, {
     "id": 5,
+    "version": 20,
     "position": "top",
     "charactor": "Charactor1",
     "img": "a05.png",
@@ -109,6 +114,7 @@
   },
   {
     "id": 6,
+    "version": 11,
     "position": "mid",
     "charactor": "Charactor2",
     "img": "a06.png",
@@ -132,6 +138,7 @@
     "comments": 241
   }, {
     "id": 7,
+    "version": 16,
     "position": "top",
     "charactor": "Charactor1",
     "img": "a07.png",
@@ -153,6 +160,7 @@
   },
   {
     "id": 8,
+    "version": 16,
     "position": "mid",
     "charactor": "Charactor2",
     "img": "a08.png",

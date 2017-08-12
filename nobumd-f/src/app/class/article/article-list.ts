@@ -1,6 +1,7 @@
 export class ArticleList {
     constructor(
         public id: number,
+        public version: number,
         public position: string,
         public charactor: string,
         public img: string,
