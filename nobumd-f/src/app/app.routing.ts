@@ -9,8 +9,7 @@ import { DetailComponent } from './container/guides/detail/detail.component';
 import { ArticleComponent } from './container/guides/article/article.component';
 
 const appRoutes: Routes = [
-  { path: 'guides', loadChildren: './container/guides/guides.module#GuidesModule' },
-  // { path: 'guides', component: GuidesComponent },
+  { path: 'guides', component: GuidesComponent },
   { path: 'guides/article/charactor/:id', component: ArticleComponent },
   { path: 'guides/article/:id', component: DetailComponent },
   { path: '', component: HomeComponent },
