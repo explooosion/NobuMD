@@ -84,7 +84,7 @@
       "class": "badge-primary"
     }, {
       "status": "陳舊",
-      "class": "badge-default"
+      "class": "badge-info"
     }],
     "scoreup": 42,
     "scoredn": 12,
@@ -176,7 +176,7 @@
       "class": "badge-primary"
     }, {
       "status": "陳舊",
-      "class": "badge-default"
+      "class": "badge-info"
     }],
     "scoreup": 42,
     "scoredn": 12,

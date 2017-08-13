@@ -1,4 +1,5 @@
 #mainNav {
+  padding: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -61,7 +62,6 @@
 
 @media (min-width: 992px) {
   #mainNav {
-    padding: 25px 0;
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
     transition: padding .3s;
@@ -84,7 +84,7 @@
     background: #18BC9C;
   }
   #mainNav.navbar-shrink {
-    padding: 10px 0;
+    padding: 10px 25px;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
