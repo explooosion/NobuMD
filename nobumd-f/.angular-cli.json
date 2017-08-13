@@ -31,6 +31,7 @@
       "../plugin/tether/tether.min.js",
       "../node_modules/jquery/dist/jquery.min.js",
       "../plugin/jquery-easing/jquery.easing.min.js",
+      "../node_modules/popper.js/dist/umd/popper.min.js",
       "../node_modules/bootstrap/dist/js/bootstrap.min.js",
       "../plugin/datatables/jquery.dataTables.js",
       "../plugin/datatables/dataTables.bootstrap4.js",
