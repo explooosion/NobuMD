@@ -3,17 +3,19 @@
 
   // Smooth scrolling using jQuery easing
   $('a[href*="#"]:not([href="#"]):not(.nav-link)').click(function () {
-    return;
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top - 48)
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
+
+    console.log('click');
+    return false;
+    // if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    //   var target = $(this.hash);
+    //   target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    //   if (target.length) {
+    //     $('html, body').animate({
+    //       scrollTop: (target.offset().top - 48)
+    //     }, 1000, "easeInOutExpo");
+    //     return false;
+    //   }
+    // }
   });
 
   // Activate scrollspy to add active class to navbar items on scroll
@@ -31,9 +33,18 @@
   $(window).scroll(function () {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+      $('.page-scroll').fadeIn(300);
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      $('.page-scroll').fadeOut(300);
     }
+  });
+
+  // Page Top
+  $('.page-scroll').click(function () {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 1000, "easeInOutExpo");
   });
 
 })(jQuery); // End of use strict
