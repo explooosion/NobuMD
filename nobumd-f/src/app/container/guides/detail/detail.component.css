@@ -199,7 +199,7 @@
 
 /* glabel */
 
-.skill-discript img {
+img.img-discript {
   margin: 10px;
   width: 40px;
   height: 40px;
@@ -279,4 +279,112 @@
   border: 1px solid #222;
   border-radius: 8px;
   box-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+
+/* abilities */
+
+#abilities table {
+  background: #141414;
+}
+
+#abilities table tr td:first-child {
+  width: 50px;
+}
+
+#abilities table tr:nth-child(even) {
+  background: #222222;
+}
+
+#abilities table tr:not(:first-child):nth-child(odd) {
+  background: #292929;
+}
+
+#abilities table tr:first-child td {
+  color: rgba(238, 238, 238, 0.8);
+}
+
+#abilities table td {
+  padding: .4rem;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#abilities .img-discript {
+  margin: auto;
+  width: 32px;
+  height: 32px;
+}
+
+#abilities .abilities-level {
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 28px;
+  background: #ECCD51;
+  color: #242424;
+  border: 1px solid #111;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2px #000;
+}
+
+
+/* video */
+
+#video iframe {
+  margin-bottom: 20px;
+}
+
+
+/*matchups */
+
+#matchups {}
+
+#matchups .matchups-level>div {
+  padding-top: 6px;
+}
+
+#matchups .matchups-list {
+  list-style-type: none;
+}
+
+#matchups .matchups-list li {
+  display: inline-block;
+  width: 180px;
+  padding: 6px;
+  margin: 2px;
+  background: #333;
+  border-radius: 4px;
+}
+
+#matchups .matchups-list div {
+  float: left;
+}
+
+#matchups .matchups-list span {
+  display: block;
+  margin: 0 16px 0 8px;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 1px #000000;
+  letter-spacing: 1px;
+}
+
+#matchups .matchups-list span:first-child {
+  font-size: 14px;
+}
+
+#matchups .matchups-list span:last-child {
+  margin-top: 4px;
+  font-size: 12px;
+  /* color: #F8DD33; */
+}
+
+#matchups .matchups-list img {
+  height: 45px;
+  width: 45px;
+  border-radius: 6px;
 }
