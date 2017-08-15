@@ -6,7 +6,7 @@
 }
 
 #detail>.container {
-  padding: 30px 20px;
+  padding: 30px 30px;
   color: #fff;
   background: #242424;
 }
@@ -18,6 +18,8 @@
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100% auto;
+  background-color: hsla(0, 0%, 100%, .2);
+  background-blend-mode: overlay;
 }
 
 .detail-group>.row {
@@ -25,68 +27,152 @@
 }
 
 .detail-group .detail-title {
-  padding-left: 0;
-  width: 98%;
-  margin: 0 auto;
-  border-bottom: 1px solid #222;
-}
-
-.detail-group .detail-title h3 {
-  color: #FFEE99;
-  letter-spacing: 1px;
-  margin: 0;
-}
-
-.detail-group .detail-head {
-  padding: 15px;
+  padding: 15px 5px;
   border-radius: 6px;
   background-color: rgba(0, 0, 0, .8);
 }
 
-.detail-head .detail-name>img {
-  width: 70px;
-  height: 70px;
+.detail-group .detail-title h4 {
+  float: left;
+  margin: 0;
+  line-height: 40px;
+  color: #FFEE99;
+  letter-spacing: 1px;
 }
 
-.detail-head .detail-name>span {
-  margin-left: 10px;
-  font-size: 20px;
-  color: #fff;
+.detail-group .detail-share {
+  float: right;
+  padding: 0;
+  margin: 0;
 }
 
-.detail-head>p {
-  margin: 10px;
-  color: #999;
+.detail-group .detail-share a {
+  display: inherit;
+  width: 40px;
+  height: 40px;
+  opacity: .7;
+}
+
+.detail-group .detail-share a i {
+  padding: 0;
+  margin: 0;
+  transition: all .3s ease-in-out;
+  transform: rotate(0deg);
+}
+
+.detail-group .detail-share a:hover {
+  opacity: 1;
+}
+
+.detail-group .detail-share a:hover i {
+  transform: rotate(360deg);
+}
+
+
+/* detail-author */
+
+.detail-group .detail-author {
+  padding: 15px 5px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.detail-author>div {
+  padding-top: 5px;
+}
+
+.detail-author label {
+  margin-right: 5px;
+  padding: 5px 8px;
+  color: #FFEE99;
   font-size: 12px;
-  text-transform: uppercase;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  line-height: 20px;
 }
 
-.detail-head .detail-guide {
-  margin-left: 80px;
+.detail-author .author-name {
+  margin: 0 5px;
+  color: #eee;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.detail-author .author-id {
+  text-decoration: unset;
+  font-size: 12px;
+  color: #0089ac;
+}
+
+.detail-author img {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #FFEE99;
+  border-radius: 6px;
+}
+
+
+/* detail-guide */
+
+.detail-group .detail-guide {
+  margin-top: 15px;
+  padding: 15px 5px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.detail-guide .guide-name {
+  display: inline-block;
+  width: 50%;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.detail-guide .guide-name img {
+  display: block;
+  width: 60px;
+  height: 80px;
+  border: 1px solid #FFEE99;
+  border-radius: 6px;
+}
+
+.detail-guide .guide-name span {
+  display: block;
+  margin: 4px 0 8px;
+}
+
+.detail-guide .guide-nav {
+  display: inline-block;
+  padding-left: 20px;
+  margin-left: 5px;
   list-style-type: decimal;
 }
 
-.detail-head .detail-guide li {
+.guide-nav li {
   margin: 6px 0;
   color: #eabc00;
 }
 
-.detail-head .detail-guide li a {
+.guide-nav li a {
   color: inherit;
   text-decoration: unset;
   transition: all .2s ease-in-out;
 }
 
-.detail-head .detail-guide li:hover a:hover {
+.guide-nav li:hover a:hover {
   margin-left: 10px;
 }
 
-.detail-head .detail-guide li a:hover {
+.guide-nav li a:hover {
   color: #fff;
 }
 
+
+/* detail-info */
+
 .detail-group .detail-info {
-  padding: 15px;
+  margin-left: 2px;
+  padding: 15px 5px;
   border-radius: 6px;
   background-color: rgba(0, 0, 0, .8);
 }
@@ -116,8 +202,9 @@
 }
 
 .detail-group .detail-analysis {
-  margin-top: 10px;
-  padding: 15px;
+  margin-top: 15px;
+  margin-left: 2px;
+  padding: 15px 5px;
   border-radius: 6px;
   background-color: rgba(0, 0, 0, .8);
 }
@@ -125,32 +212,6 @@
 .detail-group .detail-analysis .analysis-char {
   padding: 10px;
   display: block;
-}
-
-.detail-group .detail-author a {
-  display: block;
-  margin: 15px 0;
-  color: #ffcd03;
-  font-size: 24px;
-  text-decoration: unset;
-}
-
-.detail-group .detail-author a:hover {
-  color: #fff;
-}
-
-.detail-group .detail-author img {
-  margin-right: 10px;
-  height: 50px;
-}
-
-.detail-group .detail-share a {
-  display: block;
-  margin: 10px 0;
-}
-
-.detail-group .detail-share a>i {
-  margin-right: 15px;
 }
 
 

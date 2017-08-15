@@ -2,6 +2,7 @@
 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import "~nouislider/distribute/nouislider.min.css";
 @import url('css/nav-fix.css');
 @import url('css/scroll-top.css');
 @import url('css/button.css');

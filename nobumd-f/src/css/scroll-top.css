@@ -19,3 +19,7 @@
 .scroll-top .btn:focus {
   outline: none;
 }
+
+.scroll-top .btn i {
+  color: #eee;
+}

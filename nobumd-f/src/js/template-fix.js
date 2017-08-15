@@ -4,18 +4,14 @@
   // Smooth scrolling using jQuery easing
   $('a[href*="#"]:not([href="#"]):not(.nav-link)').click(function () {
 
-    console.log('click');
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    target = target.offset().top;
+    $('html, body').animate({
+      scrollTop: (target - 48)
+    }, 1000, "easeInOutExpo");
+
     return false;
-    // if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-    //   var target = $(this.hash);
-    //   target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-    //   if (target.length) {
-    //     $('html, body').animate({
-    //       scrollTop: (target.offset().top - 48)
-    //     }, 1000, "easeInOutExpo");
-    //     return false;
-    //   }
-    // }
   });
 
   // Activate scrollspy to add active class to navbar items on scroll
@@ -41,10 +37,13 @@
   });
 
   // Page Top
-  $('.page-scroll').click(function () {
+  $('.page-top').click(function () {
     $('html, body').animate({
       scrollTop: 0
     }, 1000, "easeInOutExpo");
   });
+
+  // Bootstrap Tooltips 
+  $('[data-toggle="tooltip"]').tooltip();
 
 })(jQuery); // End of use strict

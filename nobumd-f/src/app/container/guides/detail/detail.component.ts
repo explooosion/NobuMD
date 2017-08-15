@@ -22,6 +22,19 @@ export class DetailComponent implements OnInit {
     }
   };
 
+  // public someRange = 5;
+  // public someRange2config: any = {
+  //   connect: true,
+  //   margin: 1,
+  //   range: {
+  //     min: 1,
+  //     max: 20
+  //   },
+  //   pips: {
+  //     mode: 'steps',
+  //     density: 10
+  //   }
+  // };
   constructor() { }
 
   ngOnInit() {

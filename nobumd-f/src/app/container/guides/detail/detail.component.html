@@ -2,74 +2,84 @@
   <div class="container">
 
     <div class="detail-group container">
-      <div class="row detail-title">
-        <h3>【11版】標準玩法</h3>
+      <div class="row">
+        <div class="col-12 detail-title">
+          <h4>【11版】讓我們用雷切切爆他們吧</h4>
+          <ul class="detail-share nav-float">
+            <li><a class="btn bg-warning" data-toggle="tooltip" data-placement="top" title="收藏"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+            <li><a class="btn bg-primary" data-toggle="tooltip" data-placement="top" title="分享"><i class="fa fa-share" aria-hidden="true"></i></a></li>
+            <li><a class="btn bg-danger" data-toggle="tooltip" data-placement="top" title="檢舉"><i class="fa fa-exclamation" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
       </div>
       <div class="row">
-        <div class="col-4 detail-head">
-          <div class="detail-name">
-            <img src="/img/hero/a01.png" alt="">
-            <span>德川家康</span>
+        <div class="col-4">
+          <div class="detail-author row">
+            <div class="col-12">
+              <label>文章作者</label>
+              <img src="/img/profile/user/me.png" alt="文章作者">
+              <span class="author-name">打爆你全家</span>
+              <a class="author-id" title="帳號">(userid)</a>
+            </div>
           </div>
-          <p>TABLE OF CONTENTS</p>
-          <ol class="detail-guide">
-            <li><a href="#skillintro">技能介紹</a></li>
-            <li><a href="#">起手裝備</a></li>
-            <li><a href="#">推薦出裝</a></li>
-            <li><a href="#abilities">技能配置</a></li>
-            <li><a href="#">遊玩心得</a></li>
-            <li><a href="#">英雄相剋</a></li>
-          </ol>
+          <div class="detail-guide row">
+            <div class="col-12">
+              <div class="guide-name">
+                <img src="/img/hero/a01.png" alt="">
+                <span>德川家康</span>
+              </div>
+              <ol class="guide-nav">
+                <li><a href="#skill">技能介紹</a></li>
+                <li><a href="#equip-start">起手裝備</a></li>
+                <li><a href="#equip-final">推薦出裝</a></li>
+                <li><a href="#abilities">技能配置</a></li>
+                <li><a href="#video">影片分享</a></li>
+                <li><a href="#matchups">英雄相剋</a></li>
+                <li><a href="#comments">留言板</a></li>
+              </ol>
+            </div>
+          </div>
         </div>
         <div class="col-8">
-          <div class="container">
-            <div class="detail-info row text-center">
-              <div class="col-2">
-                <a href="#" class="thumbs-up">
+          <div class="detail-info row text-center">
+            <div class="col-2">
+              <a href="#" class="thumbs-up">
                   <i class="fa fa-thumbs-up"></i>
-                  <span>55</span>
+                  <span>249</span>
                 </a>
-              </div>
-              <div class="col-2">
-                <a href="#" class="thumbs-down">
+            </div>
+            <div class="col-2">
+              <a href="#" class="thumbs-down">
                   <i class="fa fa-thumbs-down"></i>
-                  <span>0</span>
+                  <span>38</span>
                 </a>
-              </div>
-              <div class="col-2">
-                <span>最後更新</span>
-                <span class="detail-info-item">3 hours ago</span>
-              </div>
-              <div class="col-3">
-                <span>瀏覽次數</span>
-                <span class="detail-info-item"><i class="fa fa-user"></i>15.6K</span>
-              </div>
-              <div class="col-3">
-                <span>留言筆數</span>
-                <span class="detail-info-item"><i class="fa fa-comments"></i>10</span>
+            </div>
+            <div class="col-2">
+              <span>最後更新</span>
+              <span class="detail-info-item">3 hours ago</span>
+            </div>
+            <div class="col-3">
+              <span>瀏覽次數</span>
+              <span class="detail-info-item"><i class="fa fa-user"></i>15.6K</span>
+            </div>
+            <div class="col-3">
+              <span>留言筆數</span>
+              <span class="detail-info-item"><i class="fa fa-comments"></i>10</span>
+            </div>
+          </div>
+          <div class="detail-analysis row">
+            <div class="col-6">
+              <h5>評價（ 1-10 ）</h5>
+              <div class="analysis-char">
+                <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType" (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)" [options]="doughnutChartOption"></canvas>
               </div>
             </div>
-            <div class="detail-analysis row">
-              <div class="col-6">
-                <h5>英雄分析（ 1-10 ）</h5>
-                <div class="analysis-char">
-                  <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType" (chartHover)="chartHovered($event)"
-                    (chartClick)="chartClicked($event)" [options]="doughnutChartOption"></canvas>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="detail-author">
-                  <h5>文章作者</h5>
-                  <a href="#"><img src="/img/profile/user/me.png" alt="">Robby</a>
-                </div>
-                <div class="detail-share">
-                  <h5>留言分享</h5>
-                  <ul>
-                    <li><a class="btn btn-success"><i class="fa fa-star" aria-hidden="true"></i>文章評分</a></li>
-                    <li><a class="btn btn-primary"><i class="fa fa-comments" aria-hidden="true"></i>留言回覆</a></li>
-                    <li><a class="btn btn-danger"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>問題回報</a></li>
-                  </ul>
-                </div>
+            <div class="col-6">
+              <h5>英雄素質（ 1-10 ）</h5>
+              <div class="analysis-char">
+                <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType" (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)" [options]="doughnutChartOption"></canvas>
               </div>
             </div>
           </div>
@@ -84,7 +94,7 @@
         <div class="col-12 panel">
           <div class="panel-head">
             <a class="panel-control">
-              <h4><i class="fa fa-paw" aria-hidden="true"></i>技能介紹</h4>
+              <h4><i class="fa fa-paw" aria-hidden="true"></i>技能分析</h4>
             </a>
           </div>
           <div class="panel-body container">
@@ -356,6 +366,27 @@
                 <td>
                   <div class="abilities-level">17</div>
                 </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><img class="img-discript" src="/img/spellicons/plus.png" alt=""></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
                 <td>
                   <div class="abilities-level">18</div>
                 </td>
@@ -403,17 +434,17 @@
               <label class="col-form-label">難度勾選：</label>
               <div class="col-sm-5">
                 <label class="custom-control custom-checkbox">
-                    <input id="chk1" name="chk-filter" value="1" type="checkbox" class="custom-control-input">
+                    <input id="chk1" name="chk-filter" value="1" type="checkbox" class="custom-control-input" checked>
                     <span class="custom-control-indicator"></span>
                     <span class="custom-control-description">EASY</span>
                   </label>
                 <label class="custom-control custom-checkbox">
-                    <input id="chk2" name="chk-filter"  value="2" type="checkbox" class="custom-control-input">
+                    <input id="chk2" name="chk-filter"  value="2" type="checkbox" class="custom-control-input" checked>
                     <span class="custom-control-indicator"></span>
                     <span class="custom-control-description">MEDIUM</span>
                   </label>
                 <label class="custom-control custom-checkbox">
-                    <input id="chk3" name="chk-filter"  value="3" type="checkbox" class="custom-control-input">
+                    <input id="chk3" name="chk-filter"  value="3" type="checkbox" class="custom-control-input" checked>
                     <span class="custom-control-indicator"></span>
                     <span class="custom-control-description">HARD</span>
                   </label>
@@ -623,7 +654,7 @@
       </div>
     </div>
 
-    <div class="panel-group container">
+    <div id="comments" class="panel-group container">
       <div class="row">
         <div class="col-12 panel">
           <div class="panel-head">
