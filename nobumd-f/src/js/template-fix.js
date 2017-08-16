@@ -1,6 +1,6 @@
 (function ($) {
-  "use strict"; // Start of use strict
-
+  // "use strict"; // Start of use strict
+  
   // Smooth scrolling using jQuery easing
   $('a[href*="#"]:not([href="#"]):not(.nav-link)').click(function () {
 
@@ -42,8 +42,5 @@
       scrollTop: 0
     }, 1000, "easeInOutExpo");
   });
-
-  // Bootstrap Tooltips
-  $('[data-toggle="tooltip"]').tooltip();
 
 })(jQuery); // End of use strict

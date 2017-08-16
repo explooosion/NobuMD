@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+declare let jquery: any;
+declare let $: any;
+
 @Component({
   selector: 'app-detail',
   templateUrl: './detail.component.html',
@@ -79,6 +82,24 @@ export class DetailComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    $(function () {
+      // Bootstrap Tooltips
+      $('[data-toggle="tooltip"]').tooltip();
+
+      // Smooth scrolling using jQuery easing
+      $('a[href*="#"]:not([href="#"]):not(.nav-link)').click(function () {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        target = target.offset().top;
+        $('html, body').animate({
+          scrollTop: (target - 48)
+        }, 1000, "easeInOutExpo");
+
+        return false;
+      });
+    });
   }
 
   public tipTemplate(id) {
