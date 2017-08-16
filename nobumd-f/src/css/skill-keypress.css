@@ -1,5 +1,6 @@
 /* 技能圖片左下角提供鍵盤對應 */
 
+
 /*
   1. element.skill-keypress > img
   2. ul > li.skill-keypress > img
@@ -42,4 +43,8 @@
 
 .skill-keypress[data-key='T']::before {
   content: 'T';
+}
+
+.skill-keypress[data-key='B']::before {
+  content: 'B';
 }

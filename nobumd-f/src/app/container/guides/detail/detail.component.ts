@@ -48,6 +48,10 @@ export class DetailComponent implements OnInit {
   <strong class='tip-name'>三河魂</strong>
   <span class='tip-content'>施放自身的王者之氣，能增加周圍1500友軍<em class='tip-step'>(15/25/35)</em>的防禦，減少<em class='tip-step'>(15/20/25)</em>% 物理傷害與加快生命回復速率<em class='tip-step'>(5/6/7)</em>% ，持續7秒。</span>
   </div>`,
+    'a01-6': `<div class='tip'>
+  <strong class='tip-name'>屬性加乘</strong>
+  <span class='tip-content'>永久性的提升<em class='tip-step'>(3/6/9/12)</em>靈活、智慧和力量。</span>
+  </div>`,
     'st_b01': `<div class='tip'>
   <strong class='tip-name'>褶裙</strong>
   <span class='tip-content'>移動速度+45。<em class='tip-unic'>唯一持有，移動速度不得累計。</span>
