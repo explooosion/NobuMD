@@ -27,13 +27,6 @@ export class DetailComponent implements OnInit {
   public pieChartData: number[] = [3, 5, 7, 2, 4, 8];
   public pieChartType: string = 'pie';
 
-
-  // public tipskillTemplate =
-  // `<div class='tip'>
-  // <strong class='tip-name'>天下之勢</strong>
-  // <span class='tip-content'>傷害減少10%，並將減少的傷害轉為補充自身雙倍的法力。</span>
-  // </div>`;
-
   public tipsArr = {
     'a01-1': `<div class='tip'>
   <strong class='tip-name'>天下之勢</strong>
@@ -54,6 +47,27 @@ export class DetailComponent implements OnInit {
     'a01-5': `<div class='tip'>
   <strong class='tip-name'>三河魂</strong>
   <span class='tip-content'>施放自身的王者之氣，能增加周圍1500友軍<em class='tip-step'>(15/25/35)</em>的防禦，減少<em class='tip-step'>(15/20/25)</em>% 物理傷害與加快生命回復速率<em class='tip-step'>(5/6/7)</em>% ，持續7秒。</span>
+  </div>`,
+    'st_b01': `<div class='tip'>
+  <strong class='tip-name'>褶裙</strong>
+  <span class='tip-content'>移動速度+45。<em class='tip-unic'>唯一持有，移動速度不得累計。</span>
+  </div>`,
+    'st_b05': `<div class='tip'>
+  <strong class='tip-name'>疾風衣</strong>
+  <span class='tip-content'>攻速+25%。</span>
+  </div>`,
+    'st_a05': `<div class='tip'>
+  <strong class='tip-name'>長槍</strong>
+  <span class='tip-content'>攻擊傷害+14。</span>
+  </div>`,
+    'st_c03': `<div class='tip'>
+  <strong class='tip-name'>軍糧丸</strong>
+  <span class='tip-content'>回復420生命值和210法力。可使用2次。<br>與當世具足共用冷卻時間。</span>
+  </div>`,
+    'ct_d01': `<div class='tip'>
+  <strong class='tip-name'>暗部長靴</strong>
+  <span class='tip-content'>移動速度+90，攻擊傷害+30，攻速+30% 。<br>【使用】在5秒內獲得魔法免疫。
+  <em class='tip-unic'>移動速度不得累計。</em></span>
   </div>`
   };
 
