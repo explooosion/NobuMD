@@ -35,23 +35,19 @@
   background-image: url('/img/article-bg.jpg');
 }
 
-.article-list .article-position {
-  float: left;
-  padding: 20px 8px;
-  max-width: 25px;
-  border-right: 1px solid #111;
-  background: linear-gradient(to right, #116178 0%, #227e98 100%);
-}
-
 .article-list .article-detail {
   overflow: hidden;
-  float: left;
-  padding: 10px 20px;
-  width: calc(100% - 25px);
+  padding: 10px 0;
   background-color: rgba(30, 57, 82, .8);
 }
 
+.article-list .article-detail .row .col-6,
+.article-list .article-detail .row .col-12 {
+  padding: 0;
+}
+
 .article-list .guides-photo {
+  overflow: hidden;
   position: relative;
   float: left;
   height: 100px;
@@ -59,7 +55,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
-  border-radius: 6px;
+  border-radius: 100%;
   border: 1px solid #111;
   box-shadow: 0 0 2px #000;
   opacity: .9;
@@ -78,62 +74,61 @@
   line-height: 32px;
 }
 
-.article-list .article-info {
-  float: left;
-  margin-left: 20px;
-}
-
-.article-info .article-title {
+.article-list .article-title a {
   color: #fff;
   font-size: 20px;
   font-weight: bold;
-  letter-spacing: 2px;
+}
+
+.article-list .article-title em {
+  float: left;
+  margin: 6px 6px 0 0;
+  font-size: 0.8em;
+}
+
+
+/* article-info */
+
+.article-info {
+  margin: 0;
+}
+
+.article-info .article-author {
+  color: #eabc00;
 }
 
 .article-info span,
 .article-info a {
   display: block;
-  height: 25px;
   font-size: 14px;
-  letter-spacing: 1px;
-}
-
-.article-info .article-author {
-  margin: 4px 0;
-  color: #eabc00;
-}
-
-.article-info span {
-  color: #aaa;
+  color: #888;
 }
 
 .article-info .article-modified::before {
-  content: '最後發表：';
-  color: #ddd
+  content: '更新：';
+  color: #888;
 }
 
 .article-info .article-create::before {
-  content: '建立日期：';
-  color: #ddd
+  content: '建立：';
+  color: #888;
 }
 
 .article-caption {
-  float: right;
-  margin: 30px 0;
-  width: calc(100% / 4);
+  margin-top: 10px;
 }
 
 .article-caption span {
+  float: left;
   padding: 4px 8px;
   margin: 0 2px;
-  color: #ccc;
   font-size: 14px;
   font-weight: normal;
 }
 
 .article-score {
-  float: right;
   margin: 20px 0;
+  text-align: center;
 }
 
 .article-score .score {
@@ -154,13 +149,12 @@
 }
 
 .article-record {
-  float: right;
   margin: 5px 30px;
+  text-align: center;
 }
 
 .record {
   margin: 8px auto;
-  text-align: center;
 }
 
 .record span {

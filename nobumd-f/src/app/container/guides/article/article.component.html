@@ -22,44 +22,65 @@
 
     <div class="article-list container">
       <div class="row" *ngFor="let article of articleArr">
-        <div class="article-position">
-          T<br>O<br>P
+        <div class="article-detail col-12">
+          <div class="container">
+            <div class="row">
+              <div class="col-2">
+                <a class="guides-photo" [style.backgroundImage]="'url(/img/hero/' + article.img  +')'" [routerLink]="'/guides/article/'+ article.id"
+                  routerLinkActive="active">
+                  <span class="guides-name">{{ article.charactor }}</span>
+                </a>
+              </div>
+              <div class="col-6">
+                <div class="container">
+                  <div class="row">
+                    <div class="article-title col-12">
+                      <em class="badge badge-secondary">{{ article.version }}版</em>
+                      <a [routerLink]="'/guides/article/'+ article.id" routerLinkActive="active">{{ article.title }}</a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="article-info col-6">
+                      <a class="article-author" href="#">{{ article.author }}</a>
+                      <span class="article-modified">{{ article.last }}</span>
+                      <span class="article-create">{{ article.create}}</span>
+                    </div>
+                    <div class="col-6">
+                      <div class="article-caption">
+                        <span *ngFor="let caption of article.caption" [ngClass]="['badge', caption.class]">{{ caption.status }}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="article-score">
+                  <div class="score">
+                    <img src="img/article/thumbsup.png" alt="">
+                    <span class="score-up">{{ article.scoreup }}</span>
+                  </div>
+                  <div class="score">
+                    <img src="img/article/thumbsdn.png" alt="">
+                    <span class="score-dn">{{ article.scoredn }}</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="article-record">
+                  <div class="record">
+                    <span class="record-count">{{ article.views }}</span>
+                    <span class="record-name">VIEWS</span>
+                  </div>
+                  <div class="record">
+                    <span class="record-count">{{ article.comments }}</span>
+                    <span class="record-name">COMMENTS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="article-detail">
-          <a class="guides-photo" [style.backgroundImage]="'url(/img/hero/' + article.img  +')'" [routerLink]="'/guides/article/'+ article.id"
-            routerLinkActive="active">
-          <span class="guides-name">{{ article.charactor }}</span>
-          </a>
-          <div class="article-info">
-            <a class="article-title" [routerLink]="'/guides/article/'+ article.id" routerLinkActive="active">【{{ article.version }}版】- {{ article.title }}</a>
-            <a class="article-author" href="#">{{ article.author }}</a>
-            <span class="article-modified">{{ article.last }}</span>
-            <span class="article-create">{{ article.create}}</span>
-          </div>
-          <div class="article-record">
-            <div class="record">
-              <span class="record-count">{{ article.views }}</span>
-              <span class="record-name">VIEWS</span>
-            </div>
-            <div class="record">
-              <span class="record-count">{{ article.comments }}</span>
-              <span class="record-name">COMMENTS</span>
-            </div>
-          </div>
-          <div class="article-score">
-            <div class="score">
-              <img src="img/article/thumbsup.png" alt="">
-              <span class="score-up">{{ article.scoreup }}</span>
-            </div>
-            <div class="score">
-              <img src="img/article/thumbsdn.png" alt="">
-              <span class="score-dn">{{ article.scoredn }}</span>
-            </div>
-          </div>
-          <div class="article-caption">
-            <span *ngFor="let caption of article.caption" [ngClass]="['badge', caption.class]">{{ caption.status }}</span>
-          </div>
-        </div>
+
       </div>
     </div>
 
