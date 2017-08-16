@@ -18,7 +18,7 @@
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-color: hsla(0, 0%, 100%, .2);
+    background-color: hsla(0, 0%, 100%, .4);
     background-blend-mode: overlay;
 }
 
@@ -140,6 +140,14 @@
 .detail-guide .guide-name span {
     display: block;
     margin: 4px 0 8px;
+}
+
+.detail-group .guide-name .name-info {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 2em;
+    font-family: 'Microsoft JhengHei';
 }
 
 .detail-guide .guide-nav {
