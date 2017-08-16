@@ -1,25 +1,26 @@
 .scroll-top {
-  position: fixed;
-  z-index: 1049;
-  right: 2%;
-  bottom: 2%;
-  width: 50px;
-  height: 50px;
+    position: fixed;
+    z-index: 1049;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
 }
 
 .scroll-top .btn {
-  font-size: 16px;
-  line-height: 28px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 100%;
+    display: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    border-radius: 100%;
 }
 
 .scroll-top .btn:focus {
-  outline: none;
+    outline: none;
 }
 
 .scroll-top .btn i {
-  color: #eee;
+    color: #eee;
 }

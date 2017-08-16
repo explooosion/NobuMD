@@ -29,10 +29,10 @@
   $(window).scroll(function () {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
-      $('.page-scroll').fadeIn(300);
+      $('.page-top').fadeIn(300);
     } else {
       $("#mainNav").removeClass("navbar-shrink");
-      $('.page-scroll').fadeOut(300);
+      $('.page-top').fadeOut(300);
     }
   });
 
@@ -43,7 +43,7 @@
     }, 1000, "easeInOutExpo");
   });
 
-  // Bootstrap Tooltips 
+  // Bootstrap Tooltips
   $('[data-toggle="tooltip"]').tooltip();
 
 })(jQuery); // End of use strict
