@@ -1,6 +1,14 @@
 <section id="detail">
   <div class="container">
-
+    <div class="row">
+      <div class="col-12">
+        <ol id="bread-nav" class="breadcrumb">
+          <li class="breadcrumb-item"><a [routerLink]="'/guides/'">英雄攻略</a></li>
+          <li class="breadcrumb-item"><a [routerLink]="'/guides/article/charactor/charactor1'">德川家康</a></li>
+          <li class="breadcrumb-item active">【11版】讓我們用雷切切爆他們吧</li>
+        </ol>
+      </div>
+    </div>
     <div class="detail-group container">
       <div class="row">
         <div class="col-12 detail-title">
@@ -150,7 +158,7 @@
                     src="/img/items/custom/speed_clothes.png" data-toggle="tooltip" data-placement="top" data-html="true" [title]="tipTemplate('st_b05')">，
                   之後就可以很快合成魔抗
                   <img class="img-discript" src="/img/items/custom/dark_boots.png" data-toggle="tooltip" data-placement="top" data-html="true"
-                  [title]="tipTemplate('ct_d01')">。 另外個人是習慣帶個仙豆
+                    [title]="tipTemplate('ct_d01')">。 另外個人是習慣帶個仙豆
                   <img class="img-discript" src="/img/items/custom/rations.png" data-toggle="tooltip" data-placement="top" data-html="true"
                     [title]="tipTemplate('st_c03')">出門，較具有蓄戰力。
                 </div>
