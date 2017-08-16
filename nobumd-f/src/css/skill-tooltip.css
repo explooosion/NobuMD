@@ -1,0 +1,22 @@
+.tip {
+    padding: 6px;
+    text-align: left;
+    font-size: 0.8em;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    letter-spacing: 1px;
+}
+
+.tip .tip-name {
+    display: block;
+    margin-left: 0;
+    color: #00CFBC;
+}
+
+.tip .tip-content {
+    display: block;
+    color: #eee;
+}
+
+.tip .tip-step {
+    color: #FBFE01;
+}
