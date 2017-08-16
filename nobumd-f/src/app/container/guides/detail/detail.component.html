@@ -42,29 +42,25 @@
         </div>
         <div class="col-8">
           <div class="detail-info row text-center">
-            <div class="col-2">
+            <div class="col-3">
               <a href="#" class="thumbs-up">
                   <i class="fa fa-thumbs-up"></i>
                   <span>249</span>
                 </a>
             </div>
-            <div class="col-2">
+            <div class="col-3">
               <a href="#" class="thumbs-down">
                   <i class="fa fa-thumbs-down"></i>
                   <span>38</span>
                 </a>
             </div>
-            <div class="col-2">
+            <div class="col-3">
               <span>最後更新</span>
               <span class="detail-info-item">3 hours ago</span>
             </div>
             <div class="col-3">
               <span>瀏覽次數</span>
               <span class="detail-info-item"><i class="fa fa-user"></i>15.6K</span>
-            </div>
-            <div class="col-3">
-              <span>留言筆數</span>
-              <span class="detail-info-item"><i class="fa fa-comments"></i>10</span>
             </div>
           </div>
           <div class="detail-analysis row">
@@ -78,8 +74,8 @@
             <div class="col-6">
               <h5>英雄素質（ 1-10 ）</h5>
               <div class="analysis-char">
-                <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType" (chartHover)="chartHovered($event)"
-                  (chartClick)="chartClicked($event)" [options]="doughnutChartOption"></canvas>
+                <canvas baseChart [data]="pieChartData" [labels]="pieChartLabels" [chartType]="pieChartType" (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)"></canvas>
               </div>
             </div>
           </div>

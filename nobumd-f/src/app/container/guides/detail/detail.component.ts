@@ -22,6 +22,11 @@ export class DetailComponent implements OnInit {
     }
   };
 
+  // Pie
+  public pieChartLabels: string[] = ['Data1', 'Data2', 'Data3', 'Data4', 'Data5', 'Data6'];
+  public pieChartData: number[] = [3, 5, 7, 2, 4, 8];
+  public pieChartType: string = 'pie';
+
   // public someRange = 5;
   // public someRange2config: any = {
   //   connect: true,
