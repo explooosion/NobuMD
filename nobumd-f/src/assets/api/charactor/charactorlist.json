@@ -1,381 +1,381 @@
 [{
-  "name": "charactor1",
+  "name": "德川家康",
   "img": "a01.png",
   "group": "a"
 }, {
-  "name": "charactor2",
+  "name": "稻姬",
   "img": "a02.png",
   "group": "a"
 }, {
-  "name": "charactor3",
+  "name": "石川樹正",
   "img": "a03.png",
   "group": "a"
 }, {
-  "name": "charactor4",
+  "name": "竹中重治",
   "img": "a04.png",
   "group": "a"
 }, {
-  "name": "charactor5",
+  "name": "酒井忠次",
   "img": "a05.png",
   "group": "a"
 }, {
-  "name": "charactor6",
+  "name": "井伊直政",
   "img": "a06.png",
   "group": "a"
 }, {
-  "name": "charactor7",
+  "name": "本多忠勝",
   "img": "a07.png",
   "group": "a"
 }, {
-  "name": "charactor8",
+  "name": "神原康正",
   "img": "a08.png",
   "group": "a"
 }, {
-  "name": "charactor9",
+  "name": "蜂須賀政勝",
   "img": "a09.png",
   "group": "a"
 }, {
-  "name": "charactor10",
+  "name": "平手政秀",
   "img": "a10.png",
   "group": "a"
 }, {
-  "name": "charactor11",
+  "name": "齋藤道三",
   "img": "a11.png",
   "group": "a"
 }, {
-  "name": "charactor12",
+  "name": "大谷吉繼",
   "img": "a12.png",
   "group": "a"
 }, {
-  "name": "charactor13",
+  "name": "服部半藏",
   "img": "a13.png",
   "group": "a"
 }, {
-  "name": "charactor14",
+  "name": "前田利家",
   "img": "a14.png",
   "group": "a"
 }, {
-  "name": "charactor15",
+  "name": "寧寧",
   "img": "a15.png",
   "group": "a"
 }, {
-  "name": "charactor16",
+  "name": "鳥居元忠",
   "img": "a16.png",
   "group": "a"
 }, {
-  "name": "charactor17",
+  "name": "佐佐成政",
   "img": "a17.png",
   "group": "a"
 }, {
-  "name": "charactor18",
+  "name": "稻葉一鐵",
   "img": "a18.png",
   "group": "a"
 }, {
-  "name": "charactor19",
+  "name": "黑田孝高",
   "img": "a19.png",
   "group": "a"
 }, {
-  "name": "charactor20",
+  "name": "九鬼嘉隆",
   "img": "a20.png",
   "group": "a"
 }, {
-  "name": "charactor21",
+  "name": "瑞龍院日秀",
   "img": "a21.png",
   "group": "a"
 }, {
-  "name": "charactor22",
+  "name": "仙石秀久",
   "img": "a22.png",
   "group": "a"
 }, {
-  "name": "charactor23",
+  "name": "宇喜多秀家",
   "img": "a23.png",
   "group": "a"
 }, {
-  "name": "charactor24",
+  "name": "佐久間盛政",
   "img": "a24.png",
   "group": "a"
 }, {
-  "name": "charactor25",
+  "name": "織田信長",
   "img": "a25.png",
   "group": "a"
 }, {
-  "name": "charactor26",
+  "name": "濃姬",
   "img": "a26.png",
   "group": "a"
 }, {
-  "name": "charactor27",
+  "name": "柴田勝家",
   "img": "a27.png",
   "group": "a"
 }, {
-  "name": "charactor28",
+  "name": "羽柴秀吉",
   "img": "a28.png",
   "group": "a"
 }, {
-  "name": "charactor29",
+  "name": "石田三成",
   "img": "a29.png",
   "group": "a"
 }, {
-  "name": "charactor30",
+  "name": "丹羽長秀",
   "img": "a30.png",
   "group": "a"
 }, {
-  "name": "charactor31",
+  "name": "森蘭丸",
   "img": "a31.png",
   "group": "a"
 }, {
-  "name": "charactor32",
+  "name": "瀧川一益",
   "img": "a32.png",
   "group": "a"
 }, {
-  "name": "charactor33",
+  "name": "本多正信",
   "img": "a33.png",
   "group": "a"
 }, {
-  "name": "charactor34",
+  "name": "阿松",
   "img": "a34.png",
   "group": "a"
 }, {
-  "name": "charactor35",
+  "name": "島左近",
   "img": "a35.png",
   "group": "a"
 }, {
-  "name": "charactor1",
+  "name": "前野長康",
   "img": "b01.png",
   "group": "b"
 }, {
-  "name": "charactor2",
+  "name": "角色名稱2",
   "img": "b02.png",
   "group": "b"
 }, {
-  "name": "charactor3",
+  "name": "角色名稱3",
   "img": "b03.png",
   "group": "b"
 }, {
-  "name": "charactor4",
+  "name": "角色名稱4",
   "img": "b04.png",
   "group": "b"
 }, {
-  "name": "charactor5",
+  "name": "角色名稱5",
   "img": "b05.png",
   "group": "b"
 }, {
-  "name": "charactor6",
+  "name": "角色名稱6",
   "img": "b06.png",
   "group": "b"
 }, {
-  "name": "charactor7",
+  "name": "角色名稱7",
   "img": "b07.png",
   "group": "b"
 }, {
-  "name": "charactor8",
+  "name": "角色名稱8",
   "img": "b08.png",
   "group": "b"
 }, {
-  "name": "charactor9",
+  "name": "角色名稱9",
   "img": "b09.png",
   "group": "b"
 }, {
-  "name": "charactor10",
+  "name": "角色名稱10",
   "img": "b10.png",
   "group": "b"
 }, {
-  "name": "charactor11",
+  "name": "角色名稱11",
   "img": "b11.png",
   "group": "b"
 }, {
-  "name": "charactor12",
+  "name": "角色名稱12",
   "img": "b12.png",
   "group": "b"
 }, {
-  "name": "charactor13",
+  "name": "角色名稱13",
   "img": "b13.png",
   "group": "b"
 }, {
-  "name": "charactor14",
+  "name": "角色名稱14",
   "img": "b14.png",
   "group": "b"
 }, {
-  "name": "charactor15",
+  "name": "角色名稱15",
   "img": "b15.png",
   "group": "b"
 }, {
-  "name": "charactor16",
+  "name": "角色名稱16",
   "img": "b16.png",
   "group": "b"
 }, {
-  "name": "charactor17",
+  "name": "角色名稱17",
   "img": "b17.png",
   "group": "b"
 }, {
-  "name": "charactor18",
+  "name": "角色名稱18",
   "img": "b18.png",
   "group": "b"
 }, {
-  "name": "charactor19",
+  "name": "角色名稱19",
   "img": "b19.png",
   "group": "b"
 }, {
-  "name": "charactor20",
+  "name": "角色名稱20",
   "img": "b20.png",
   "group": "b"
 }, {
-  "name": "charactor21",
+  "name": "角色名稱21",
   "img": "b21.png",
   "group": "b"
 }, {
-  "name": "charactor22",
+  "name": "角色名稱22",
   "img": "b22.png",
   "group": "b"
 }, {
-  "name": "charactor23",
+  "name": "角色名稱23",
   "img": "b23.png",
   "group": "b"
 }, {
-  "name": "charactor24",
+  "name": "角色名稱24",
   "img": "b24.png",
   "group": "b"
 }, {
-  "name": "charactor25",
+  "name": "角色名稱25",
   "img": "b25.png",
   "group": "b"
 }, {
-  "name": "charactor26",
+  "name": "角色名稱26",
   "img": "b26.png",
   "group": "b"
 }, {
-  "name": "charactor27",
+  "name": "角色名稱27",
   "img": "b27.png",
   "group": "b"
 }, {
-  "name": "charactor28",
+  "name": "角色名稱28",
   "img": "b28.png",
   "group": "b"
 }, {
-  "name": "charactor29",
+  "name": "角色名稱29",
   "img": "b29.png",
   "group": "b"
 }, {
-  "name": "charactor30",
+  "name": "角色名稱30",
   "img": "b30.png",
   "group": "b"
 }, {
-  "name": "charactor31",
+  "name": "角色名稱31",
   "img": "b31.png",
   "group": "b"
 }, {
-  "name": "charactor32",
+  "name": "角色名稱32",
   "img": "b32.png",
   "group": "b"
 }, {
-  "name": "charactor33",
+  "name": "角色名稱33",
   "img": "b33.png",
   "group": "b"
 }, {
-  "name": "charactor34",
+  "name": "角色名稱34",
   "img": "b34.png",
   "group": "b"
 }, {
-  "name": "charactor35",
+  "name": "角色名稱35",
   "img": "b35.png",
   "group": "b"
 }, {
-  "name": "charactor1",
+  "name": "角色名稱1",
   "img": "c01.png",
   "group": "c"
 }, {
-  "name": "charactor2",
+  "name": "角色名稱2",
   "img": "c02.png",
   "group": "c"
 }, {
-  "name": "charactor3",
+  "name": "角色名稱3",
   "img": "c03.png",
   "group": "c"
 }, {
-  "name": "charactor4",
+  "name": "角色名稱4",
   "img": "c04.png",
   "group": "c"
 }, {
-  "name": "charactor5",
+  "name": "角色名稱5",
   "img": "c05.png",
   "group": "c"
 }, {
-  "name": "charactor6",
+  "name": "角色名稱6",
   "img": "c06.png",
   "group": "c"
 }, {
-  "name": "charactor7",
+  "name": "角色名稱7",
   "img": "c07.png",
   "group": "c"
 }, {
-  "name": "charactor8",
+  "name": "角色名稱8",
   "img": "c08.png",
   "group": "c"
 }, {
-  "name": "charactor9",
+  "name": "角色名稱9",
   "img": "c09.png",
   "group": "c"
 }, {
-  "name": "charactor10",
+  "name": "角色名稱10",
   "img": "c10.png",
   "group": "c"
 }, {
-  "name": "charactor11",
+  "name": "角色名稱11",
   "img": "c11.png",
   "group": "c"
 }, {
-  "name": "charactor12",
+  "name": "角色名稱12",
   "img": "c12.png",
   "group": "c"
 }, {
-  "name": "charactor13",
+  "name": "角色名稱13",
   "img": "c13.png",
   "group": "c"
 }, {
-  "name": "charactor14",
+  "name": "角色名稱14",
   "img": "c14.png",
   "group": "c"
 }, {
-  "name": "charactor15",
+  "name": "角色名稱15",
   "img": "c15.png",
   "group": "c"
 }, {
-  "name": "charactor16",
+  "name": "角色名稱16",
   "img": "c16.png",
   "group": "c"
 }, {
-  "name": "charactor17",
+  "name": "角色名稱17",
   "img": "c17.png",
   "group": "c"
 }, {
-  "name": "charactor18",
+  "name": "角色名稱18",
   "img": "c18.png",
   "group": "c"
 }, {
-  "name": "charactor19",
+  "name": "角色名稱19",
   "img": "c19.png",
   "group": "c"
 }, {
-  "name": "charactor20",
+  "name": "角色名稱20",
   "img": "c20.png",
   "group": "c"
 }, {
-  "name": "charactor21",
+  "name": "角色名稱21",
   "img": "c21.png",
   "group": "c"
 }, {
-  "name": "charactor22",
+  "name": "角色名稱22",
   "img": "c22.png",
   "group": "c"
 }, {
-  "name": "charactor23",
+  "name": "角色名稱23",
   "img": "c23.png",
   "group": "c"
 }, {
-  "name": "charactor24",
+  "name": "角色名稱24",
   "img": "c24.png",
   "group": "c"
 }, {
-  "name": "charactor25",
+  "name": "角色名稱25",
   "img": "c25.png",
   "group": "c"
 }]

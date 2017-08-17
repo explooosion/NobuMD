@@ -47,22 +47,25 @@
 }
 
 .guides-group .guides-box a {
+  overflow: hidden;
   position: relative;
   display: inline-block;
-  margin: 3px 6px;
-  width: 120px;
-  height: 120px;
+  margin: 4px 8px;
+  width: 80px;
+  height: 80px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
+  background-image: url('/img/loading.gif');
   border: 1px solid #111;
-  border-radius: 6px;
+  border-radius: 8px;
   box-shadow: 0 0 2px rgb(0, 0, 0);
   opacity: .9;
-  /* background: url('http://fakeimg.pl/140x140/?text=Charactor') no-repeat center center; */
+  transition: all .2s ease-in-out;
 }
 
 .guides-group .guides-box a:hover {
+  background-size: 120%;
   opacity: 1;
 }
 
