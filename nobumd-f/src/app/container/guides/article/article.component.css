@@ -58,7 +58,11 @@
   border-radius: 100%;
   border: 1px solid #111;
   box-shadow: 0 0 2px #000;
-  opacity: .9;
+  opacity: .8;
+}
+
+.article-list .guides-photo:hover {
+  opacity: 1;
 }
 
 .article-list .guides-name {

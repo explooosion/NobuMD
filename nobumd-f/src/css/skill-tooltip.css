@@ -1,5 +1,9 @@
+.tooltip>.tooltip-inner {
+  border-radius: 6px;
+  padding: 15px 20px;
+}
+
 .tip {
-  padding: 8px;
   text-align: left;
   font-family: 'Microsoft JhengHei', sans-serif;
   letter-spacing: 1px;
