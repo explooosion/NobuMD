@@ -13,27 +13,11 @@
 }
 
 
-/* bread-nav */
-
-#detail #bread-nav {
-  margin-bottom: 0.5em;
-  background-color: transparent;
-  border-radius: 6px;
-}
-
-#bread-nav .breadcrumb-item a {
-  color: #eabc00;
-}
-
-#bread-nav .breadcrumb-item.active a {
-  color: #999;
-}
-
-
 /* detail-group */
 
 #detail .detail-group {
   padding-top: 10px;
+  margin-bottom: 20px;
   border-radius: 6px;
   background-image: url('/img/article/box/demo.jpg');
   background-position: center top;
@@ -246,49 +230,6 @@
 .detail-group .detail-analysis .analysis-char {
   padding: 10px;
   display: block;
-}
-
-
-/******** 導覽面板  ***********/
-
-.panel-group {
-  display: block;
-  padding: 20px 35px;
-  margin-top: 20px;
-  background-color: #333;
-  border-radius: 6px;
-}
-
-.panel {
-  background-color: #1A1A1A;
-  border-radius: 6px;
-  padding-bottom: 20px;
-}
-
-.panel .panel-body {
-  overflow-y: hidden;
-}
-
-.panel .panel-toggle {
-  height: 0px;
-}
-
-.panel .panel-head {
-  padding: 18px 10px;
-  margin-bottom: 20px;
-  height: 60px;
-  border-bottom: 1px solid #333;
-}
-
-.panel .panel-control i {
-  margin-right: 10px;
-}
-
-.panel .panel-body .during {
-  margin: 10px 0 0 0;
-  padding: 4px 8px;
-  font-size: 14px;
-  font-weight: normal;
 }
 
 

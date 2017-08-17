@@ -3,7 +3,9 @@
 
     <h4 class="title text-left">英雄攻略</h4>
     <a href="assets/api/charactor/charactorlist.json" target="_blank">API</a>
+    <a [routerLink]="'/guides/post/'">發文</a>
     <hr>
+
     <div class="search-box">
       <form>
         <div class="form-group row filter-name">
@@ -42,7 +44,7 @@
 
     <ul class="guides-group">
       <li class="guides-box" *ngFor="let charactor of charactorArr | charactorSearch:filterkey">
-        <a href="#" [routerLink]="'/guides/article/charactor/'+ charactor.name" routerLinkActive="active" [style.backgroundImage]="'url(/img/hero/' + charactor.img  +')'">
+        <a [routerLink]="'/guides/article/charactor/'+ charactor.name" routerLinkActive="active" [style.backgroundImage]="'url(/img/hero/' + charactor.img  +')'">
           <span class="guides-name">{{ charactor.name }}</span>
         </a>
       </li>

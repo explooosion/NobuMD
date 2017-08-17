@@ -78,18 +78,6 @@
   line-height: 32px;
 }
 
-.article-list .article-title a {
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.article-list .article-title em {
-  float: left;
-  margin: 6px 6px 0 0;
-  font-size: 0.8em;
-}
-
 
 /* article-info */
 

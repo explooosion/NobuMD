@@ -5,35 +5,37 @@
 @import "~nouislider/distribute/nouislider.min.css";
 @import url('css/nav-fix.css');
 @import url('css/scroll-top.css');
+@import url('css/bread-nav.css');
 @import url('css/button.css');
+@import url('css/panel-group.css');
 @import url('css/skill-keypress.css');
 @import url('css/skill-tooltip.css');
 
 /* end of import */
 
 * {
-    /* font-family: 'Noto Sans TC', sans-serif; */
-    font-family: 'Microsoft JhengHei', sans-serif;
+  /* font-family: 'Noto Sans TC', sans-serif; */
+  font-family: 'Microsoft JhengHei', sans-serif;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 section {
-    padding: 150px 0;
+  padding: 150px 0;
 }
 
 section h2 {
-    font-size: 3em;
-    margin: 0;
+  font-size: 3em;
+  margin: 0;
 }
 
 @media (max-width: 767px) {
-    section {
-        padding: 75px 0;
-    }
-    section.first {
-        padding-top: 75px;
-    }
+  section {
+    padding: 75px 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
 }

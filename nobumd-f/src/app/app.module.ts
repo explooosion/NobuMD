@@ -17,6 +17,7 @@ import { HomeComponent } from './container/home/home.component';
 import { GuidesComponent } from './container/guides/guides.component';
 import { DetailComponent } from './container/guides/detail/detail.component';
 import { ArticleComponent } from './container/guides/article/article.component';
+import { PostComponent } from './container/guides/post/post.component';
 
 /**
  * Pipe
@@ -42,6 +43,7 @@ import { NouisliderModule } from 'ng2-nouislider';
     ArticleComponent,
     DetailComponent,
     LogComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,

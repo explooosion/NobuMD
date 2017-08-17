@@ -1,0 +1,13 @@
+#detail {
+  background-image: url('/img/background.jpg');
+  background-position: center top;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#detail>.container {
+  padding: 30px 30px;
+  color: #fff;
+  background: #242424;
+  border-radius: 6px;
+}
