@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
-@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+/* @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css); */
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosansscsliced.css);
 @import "~nouislider/distribute/nouislider.min.css";
 @import url('css/nav-fix.css');
 @import url('css/scroll-top.css');
@@ -15,7 +18,7 @@
 
 * {
   /* font-family: 'Noto Sans TC', sans-serif; */
-  font-family: 'Microsoft JhengHei', sans-serif;
+  font-family: 'Noto Sans SC Sliced', sans-serif;
 }
 
 body {
