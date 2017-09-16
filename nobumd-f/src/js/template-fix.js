@@ -1,6 +1,6 @@
 (function ($) {
   // "use strict"; // Start of use strict
-  
+
   // Smooth scrolling using jQuery easing
   $('a[href*="#"]:not([href="#"]):not(.nav-link)').click(function () {
 
@@ -29,15 +29,15 @@
   $(window).scroll(function () {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
-      $('.page-top').fadeIn(300);
+      $('.scroll-top').fadeIn(300);
     } else {
       $("#mainNav").removeClass("navbar-shrink");
-      $('.page-top').fadeOut(300);
+      $('.scroll-top').fadeOut(300);
     }
   });
 
   // Page Top
-  $('.page-top').click(function () {
+  $('.scroll-top').click(function () {
     $('html, body').animate({
       scrollTop: 0
     }, 1000, "easeInOutExpo");

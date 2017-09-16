@@ -1,5 +1,6 @@
 .scroll-top {
     position: fixed;
+    display: none;
     z-index: 1049;
     right: 2%;
     bottom: 2%;
@@ -8,12 +9,11 @@
 }
 
 .scroll-top .btn {
-    display: none;
-    width: 50px;
-    height: 50px;
+    width: inherit;
+    height: inherit;
     text-align: center;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 1.2rem;
+    line-height: 2rem;
     border-radius: 100%;
 }
 
