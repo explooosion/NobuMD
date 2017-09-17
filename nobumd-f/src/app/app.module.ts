@@ -5,6 +5,7 @@ import { HttpModule, JsonpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { routing } from './app.routing';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 /**
  * Component
@@ -54,7 +55,7 @@ import { NouisliderModule } from 'ng2-nouislider';
     ChartsModule,
     NouisliderModule
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
