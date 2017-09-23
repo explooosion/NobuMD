@@ -31,6 +31,7 @@ import { CharactorSearchPipe } from './pipe/charactor/charactor-search.pipe';
 import { ChartsModule } from 'ng2-charts';
 import { LogComponent } from './component/model/log/log.component';
 import { NouisliderModule } from 'ng2-nouislider';
+import { BoxComponent } from './component/box/box.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { NouisliderModule } from 'ng2-nouislider';
     DetailComponent,
     LogComponent,
     PostComponent,
+    BoxComponent,
   ],
   imports: [
     BrowserModule,

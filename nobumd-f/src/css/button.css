@@ -1,18 +1,25 @@
 .btn {
-  border: none;
-  outline: none;
-  cursor: pointer;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 .btn.btn-primary {
-  border: none;
-  background: #3C5B9B;
+    border: none;
+    background: #3C5B9B;
 }
 
 .btn.btn-primary:hover {
-  background: #375490;
+    background: #375490;
 }
 
 .btn.btn-primary:focus {
-  color: #fff;
+    color: #fff;
+}
+
+
+/* 用在物品清單 */
+
+.btn-plus {
+    font-size: 2rem;
 }
