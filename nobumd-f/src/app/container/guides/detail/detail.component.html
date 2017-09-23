@@ -1,7 +1,7 @@
 <section id="detail">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-sm-12">
         <ol class="breadcrumb bread-nav">
           <li class="breadcrumb-item"><a [routerLink]="'/guides/'">英雄攻略</a></li>
           <li class="breadcrumb-item"><a [routerLink]="'/guides/article/charactor/charactor1'">德川家康</a></li>
@@ -11,7 +11,7 @@
     </div>
     <div class="detail-group container">
       <div class="row">
-        <div class="col-12 detail-title">
+        <div class="col-sm-12 detail-title">
           <h4>【11版】讓我們用雷切切爆他們吧</h4>
           <ul class="detail-share nav-float">
             <li><a class="btn bg-warning" data-toggle="tooltip" data-placement="top" title="收藏"><i class="fa fa-star" aria-hidden="true"></i></a></li>
@@ -21,9 +21,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-4">
+        <div class="col-sm-4">
           <div class="detail-author row">
-            <div class="col-12">
+            <div class="col-sm-12">
               <label>文章作者</label>
               <img src="/img/profile/user/me.png" alt="文章作者">
               <span class="author-name">打爆你全家</span>
@@ -31,7 +31,7 @@
             </div>
           </div>
           <div class="detail-guide row">
-            <div class="col-12">
+            <div class="col-sm-12">
               <div class="guide-name">
                 <img src="/img/hero/a01.png" alt="">
                 <span>德川家康</span>
@@ -49,38 +49,38 @@
             </div>
           </div>
         </div>
-        <div class="col-8">
+        <div class="col-sm-8">
           <div class="detail-info row text-center">
-            <div class="col-3">
+            <div class="col-sm-3">
               <a href="#" class="thumbs-up">
                   <i class="fa fa-thumbs-up"></i>
                   <span>249</span>
                 </a>
             </div>
-            <div class="col-3">
+            <div class="col-sm-3">
               <a href="#" class="thumbs-down">
                   <i class="fa fa-thumbs-down"></i>
                   <span>38</span>
                 </a>
             </div>
-            <div class="col-3">
+            <div class="col-sm-3">
               <span>最後更新</span>
               <span class="detail-info-item">3 hours ago</span>
             </div>
-            <div class="col-3">
+            <div class="col-sm-3">
               <span>瀏覽次數</span>
               <span class="detail-info-item"><i class="fa fa-user"></i>15.6K</span>
             </div>
           </div>
           <div class="detail-analysis row">
-            <div class="col-6">
+            <div class="col-sm-6">
               <h5>角色定位（ 1-10 ）</h5>
               <div class="analysis-char">
                 <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType" (chartHover)="chartHovered($event)"
                   (chartClick)="chartClicked($event)" [options]="doughnutChartOption"></canvas>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6">
               <h5>英雄素質（ 1-10 ）</h5>
               <div class="analysis-char">
                 <canvas baseChart [data]="pieChartData" [labels]="pieChartLabels" [chartType]="pieChartType" (chartHover)="chartHovered($event)"
@@ -96,7 +96,7 @@
 
     <div id="skill" class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-sm-12 panel">
           <div class="panel-head">
             <a class="panel-control">
               <h4><i class="fa fa-paw" aria-hidden="true"></i>技能分析</h4>
@@ -104,7 +104,7 @@
           </div>
           <div class="panel-body container">
             <div class="row">
-              <div class="col-5">
+              <div class="col-sm-5">
                 <ul class="nav-float">
                   <li class="skill-keypress" data-key="D" data-toggle="tooltip" data-placement="top" data-html="true" [title]="tipTemplate('a01-1')"><img src="/img/spellicons/custom/A01/a01d.png" alt=""></li>
                   <li class="skill-keypress" data-key="W" data-toggle="tooltip" data-placement="top" data-html="true" [title]="tipTemplate('a01-2')"><img src="/img/spellicons/custom/A01/a01w.png" alt=""></li>
@@ -114,7 +114,7 @@
                   <li class="skill-keypress" data-key="B" data-toggle="tooltip" data-placement="top" data-html="true" [title]="tipTemplate('a01-6')"><img src="/img/spellicons/plus.png" alt=""></li>
                 </ul>
               </div>
-              <div class="col-7">
+              <div class="col-sm-7">
                 <div class="skill-discript">
                   利用<img class="img-discript" src="/img/spellicons/meepo_earthbind.png" data-toggle="tooltip" data-placement="top"
                     data-html="true" [title]="tipTemplate('a01-3')">抓敵人，然後再使用<img class="img-discript" src="/img/spellicons/custom/A01/a01d.png"
@@ -133,7 +133,7 @@
 
     <div id="equip-start" class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-sm-12 panel">
           <div class="panel-head">
             <a class="panel-control">
               <h4><i class="fa fa-home" aria-hidden="true"></i>起手裝備</h4>
@@ -141,7 +141,7 @@
           </div>
           <div class="panel-body container">
             <div class="row">
-              <div class="col-5">
+              <div class="col-sm-5">
                 <ul class="nav-float">
                   <li><img src="/img/items/custom/pleated_skirt.png" data-toggle="tooltip" data-placement="top" data-html="true"
                       [title]="tipTemplate('st_b01')"></li>
@@ -151,7 +151,7 @@
                   <li><img src="/img/items/custom/rations.png" data-toggle="tooltip" data-placement="top" data-html="true" [title]="tipTemplate('st_c03')"></li>
                 </ul>
               </div>
-              <div class="col-7">
+              <div class="col-sm-7">
                 <div class="skill-discript">
                   人人都要穿褲子<img class="img-discript" src="/img/items/custom/pleated_skirt.png" data-toggle="tooltip" data-placement="top"
                     data-html="true" [title]="tipTemplate('st_b01')">，一開始先帶上<img class="img-discript" src="/img/items/custom/spear.png"
@@ -172,7 +172,7 @@
 
     <div id="equip-final" class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-sm-12 panel">
           <div class="panel-head">
             <a class="panel-control">
               <h4><i class="fa fa-shield" aria-hidden="true"></i>推薦出裝</h4>
@@ -180,7 +180,7 @@
           </div>
           <div class="panel-body container">
             <div class="row">
-              <div class="col-5">
+              <div class="col-sm-5">
                 <div class="during badge badge-primary">中期</div>
                 <ul class="nav-float">
                   <li><img src="/img/items/custom/dark_boots.png" alt=""></li>
@@ -207,7 +207,7 @@
                   <li><img src="/img/items/custom/the_great_sword_of_weakness.png" alt=""></li>
                 </ul>
               </div>
-              <div class="col-7">
+              <div class="col-sm-7">
                 <div class="during badge badge-primary">中期</div>
                 <div class="skill-discript">
                   高速的攻擊搭配<img class="img-discript" src="/img/items/custom/raikiri.png" alt="">，加上一點人品，可以很快打出閃電， 另外主要也是因為
@@ -233,7 +233,7 @@
 
     <div id="abilities" class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-sm-12 panel">
           <div class="panel-head">
             <a class="panel-control">
               <h4><i class="fa fa-gavel" aria-hidden="true"></i>技能配置</h4>
@@ -425,7 +425,7 @@
 
     <div id="video" class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-sm-12 panel">
           <div class="panel-head">
             <a class="panel-control">
               <h4><i class="fa fa-youtube-play" aria-hidden="true"></i>影片分享</h4>
@@ -441,7 +441,7 @@
 
     <div id="matchups" class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-sm-12 panel">
           <div class="panel-head">
             <a class="panel-control">
               <h4><i class="fa fa-flash" aria-hidden="true"></i>英雄相剋</h4>
@@ -682,7 +682,7 @@
 
     <div id="comments" class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-sm-12 panel">
           <div class="panel-head">
             <a class="panel-control">
               <h4><i class="fa fa-comments" aria-hidden="true"></i>留言板</h4>

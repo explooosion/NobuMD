@@ -1,13 +1,44 @@
-#detail {
-  background-image: url('/img/background.jpg');
-  background-position: center top;
-  background-size: 100%;
-  background-attachment: fixed;
+#post {
+    background-image: url('/img/background.jpg');
+    background-position: center top;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
-#detail>.container {
-  padding: 30px 30px;
-  color: #fff;
-  background: #242424;
-  border-radius: 6px;
+#post>.container {
+    padding: 30px 30px;
+    color: #fff;
+    background: #242424;
+    border-radius: 6px;
+}
+
+
+/* 影片分享 */
+
+#post .link-check {
+    padding: 0;
+}
+
+#post .link-check .fa {
+    margin-right: 15px;
+}
+
+#post .link-check .fa.fa-eye:hover {
+    transition: all .2s ease-in-out;
+    color: #169CB1 !important;
+}
+
+#post .input-group input {
+    border: 1px solid #E9ECEF;
+}
+
+
+/* 英雄評價 */
+
+#post .hero-score {
+    margin-bottom: 20px;
+}
+
+#post .hero-score>div{
+  margin: 0 auto;
 }

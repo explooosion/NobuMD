@@ -1,0 +1,12 @@
+hr {
+    padding: 1px;
+    background-color: #333;
+}
+
+
+/* 直條水平線 */
+
+hr.hr-vertical {
+    width: 1px;
+    height: 100%;
+}
