@@ -9,7 +9,7 @@ export class PostComponent implements OnInit {
 
   // Doughnut
   public doughnutChartLabels: string[] = ['主力', '肉盾', '控場', '亂場', '輔助', '遠距'];
-  public doughnutChartData: Number[] = [8, 5, 3, 6, 7, 2];
+  public doughnutChartData: Number[] = [1, 1, 1, 1, 1, 1];
   public doughnutChartType: String = 'doughnut';
 
   public doughnutChartOption: any = {
