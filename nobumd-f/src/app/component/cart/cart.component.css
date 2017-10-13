@@ -1,0 +1,116 @@
+#cart {
+  z-index: 9999;
+  position: fixed;
+  padding: 1.2rem 0.4rem;
+  top: 0;
+  right: -400px;
+  width: 400px;
+  height: 100%;
+  border-left: 1px solid #222;
+  background: #e1eec3;
+  background: -webkit-linear-gradient(to bottom, #101010, #040404);
+  background: linear-gradient(to bottom, #101010, #040404);
+  transition: right .5s ease-in-out;
+}
+
+#cart.active {
+  right: 0;
+}
+
+#cart .row {
+  height: 40px;
+}
+
+
+/* 購物車 - 關閉按鈕 */
+
+#cart .cart-close {
+  color: #3F484F;
+  border: 2px solid #343C42;
+  background-color: #000;
+  border-radius: 8px;
+  transition: .1s ease-in-out;
+}
+
+.cart-close:hover {
+  color: #fff !important;
+}
+
+
+/* 購物車 - 選單 */
+
+#cart .nav-tabs {
+  margin-top: 1rem;
+  background-color: #000;
+}
+
+.nav-tabs .nav-item {
+  width: 50%;
+  text-align: center;
+  border: 2px solid #3F484F;
+}
+
+.nav-tabs .nav-item:not(:first-child) {
+  border-left: 0;
+}
+
+.nav-tabs .nav-item .nav-link {
+  color: #3F484F;
+  background-color: #000;
+  border: none;
+  transition: .1s ease-in-out;
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+  color: #fff;
+}
+
+.nav-tabs .nav-item .active {
+  color: #fff;
+  background-color: #3F484F;
+  border: none;
+}
+
+
+/* 購物車 - 搜尋方塊  */
+
+#cart .search-group {
+  position: relative;
+  height: 40px;
+  color: #3F484F;
+  border: 2px solid #343C42;
+  background-color: #000;
+  border-radius: 8px;
+}
+
+.search-group i {
+  position: absolute;
+  top: 11px;
+  left: 15px;
+}
+
+.search-group input {
+  padding-left: 40px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.search-group input:focus {
+  color: #fff;
+}
+
+
+/* 購物車 - 物品 */
+
+#cart .nav-float {
+  margin-top: 0.8rem;
+}
+
+#cart .nav-float li {
+  margin: 6px;
+}
+
+#cart .nav-float li img {
+  border: 1px solid yellowgreen;
+  height: 40px;
+}

@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostComponent implements OnInit {
 
+  // Cart Open
+  public active: Boolean = false;
+
   // Doughnut
   public doughnutChartLabels: string[] = ['主力', '肉盾', '控場', '亂場', '輔助', '遠距'];
   public doughnutChartData: Number[] = [1, 1, 1, 1, 1, 1];
@@ -42,5 +45,15 @@ export class PostComponent implements OnInit {
     drr[index] = value;
 
     this.doughnutChartData = [drr[0], drr[1], drr[2], drr[3], drr[4], drr[5]];
+  }
+
+  public openCart() {
+    // double click to close cart
+    this.active = !this.active;
+  }
+
+  public closeCart(event) {
+    // emit from cart component
+    this.active = event;
   }
 }

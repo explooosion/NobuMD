@@ -32,6 +32,7 @@ import { ChartsModule } from 'ng2-charts';
 import { LogComponent } from './component/model/log/log.component';
 import { NouisliderModule } from 'ng2-nouislider';
 import { BoxComponent } from './component/box/box.component';
+import { CartComponent } from './component/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { BoxComponent } from './component/box/box.component';
     LogComponent,
     PostComponent,
     BoxComponent,
+    CartComponent,
   ],
   imports: [
     BrowserModule,
