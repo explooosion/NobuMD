@@ -8,6 +8,8 @@
           </li>
           <li class="breadcrumb-item active">文章發表</li>
         </ol>
+        <a class="mr-2" href="assets/api/object/skill.json" target="_blank">API - Skill</a>
+        <a class="mr-2" href="assets/api/object/item.json" target="_blank">API - Item</a>
       </div>
     </div>
 
@@ -187,23 +189,43 @@
       </div>
     </div>
 
-    <div class="panel-group container">
+    <div id="skill" class="panel-group container">
       <div class="row">
         <div class="col-md-12 panel">
           <div class="panel-head">
-            <a class="panel-control">
+            <a class="panel-control float-left">
               <h4>
                 <i class="fa fa-paw" aria-hidden="true"></i>技能分析</h4>
             </a>
+            <button type="button" class="btn btn-primary float-right" (click)="openCart()">新增裝備</button>
           </div>
           <div class="panel-body container">
             <div class="row">
-              <div class="col-md-6">
-                <!-- <button type="button" class="btn btn-primary" (click)="openCart()">新增裝備</button> -->
+              <div class="col-md-5">
+                <ul class="nav-float">
+                  <li class="skill-keypress" data-key="D" data-toggle="tooltip" data-placement="top" data-html="true" [title]="tipTemplate('a01-1')">
+                    <img src="/img/spellicons/custom/A01/a01d.png" alt="">
+                  </li>
+                  <li class="skill-keypress" data-key="W" data-toggle="tooltip" data-placement="top" data-html="true" [title]="tipTemplate('a01-2')">
+                    <img src="/img/spellicons/custom/A01/a01w.png" alt="">
+                  </li>
+                  <li class="skill-keypress" data-key="E" data-toggle="tooltip" data-placement="top" data-html="true" [title]="tipTemplate('a01-3')">
+                    <img src="/img/spellicons/meepo_earthbind.png" alt="">
+                  </li>
+                  <li class="skill-keypress" data-key="R" data-toggle="tooltip" data-placement="top" data-html="true" [title]="tipTemplate('a01-4')">
+                    <img src="/img/spellicons/zuus_lightning_bolt.png" alt="">
+                  </li>
+                  <li class="skill-keypress" data-key="T" data-toggle="tooltip" data-placement="top" data-html="true" [title]="tipTemplate('a01-5')">
+                    <img src="/img/spellicons/custom/icon_128x128_119.png" alt="">
+                  </li>
+                  <li class="skill-keypress" data-key="B" data-toggle="tooltip" data-placement="top" data-html="true" [title]="tipTemplate('a01-6')">
+                    <img src="/img/spellicons/plus.png" alt="">
+                  </li>
+                </ul>
               </div>
-              <div class="col-md-6 form-group">
-                <button type="button" class="btn btn-primary" (click)="openCart()">新增裝備</button>
-                <textarea cols="30" rows="10" class="form-control"></textarea>
+              <div class="col-md-7 form-group">
+                <textarea cols="30" rows="10" class="form-control">利用抓敵人，然後再使用、給予傷害，進行連續技。會戰的時候視情況，當不得時再使用。
+                </textarea>
                 <app-cart [active]="active" (closeCartEvent)="closeCart($event)"></app-cart>
               </div>
             </div>

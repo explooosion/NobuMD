@@ -8,6 +8,20 @@ import { enableProdMode } from '@angular/core';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 /**
+ * Pipe
+ */
+import { CharactorSearchPipe } from './pipe/charactor/charactor-search.pipe';
+
+/**
+ * Plugin
+ */
+import { ChartsModule } from 'ng2-charts';
+import { ClipboardModule } from 'ngx-clipboard';
+import { NouisliderModule } from 'ng2-nouislider';
+import { SweetAlert2Module } from '@toverux/ngsweetalert2';
+
+
+/**
  * Component
  */
 import { AppComponent } from './app.component';
@@ -19,22 +33,10 @@ import { GuidesComponent } from './container/guides/guides.component';
 import { DetailComponent } from './container/guides/detail/detail.component';
 import { ArticleComponent } from './container/guides/article/article.component';
 import { PostComponent } from './container/guides/post/post.component';
-
-/**
- * Pipe
- */
-import { CharactorSearchPipe } from './pipe/charactor/charactor-search.pipe';
-
-/**
- * Plugin
- */
-import { ChartsModule } from 'ng2-charts';
 import { LogComponent } from './component/model/log/log.component';
-import { NouisliderModule } from 'ng2-nouislider';
 import { BoxComponent } from './component/box/box.component';
 import { CartComponent } from './component/cart/cart.component';
 
-import { SweetAlert2Module } from '@toverux/ngsweetalert2';
 
 enableProdMode();
 
@@ -68,6 +70,7 @@ enableProdMode();
       // confirmButtonClass: 'btn btn-lg btn-primary',
       // cancelButtonClass: 'btn btn-lg'
     }),
+    ClipboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

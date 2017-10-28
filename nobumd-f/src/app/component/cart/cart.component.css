@@ -109,10 +109,15 @@
 }
 
 #cart .nav-float li {
+    cursor: pointer;
     margin: 6px;
 }
 
 #cart .nav-float li img {
     border: 1px solid yellowgreen;
     height: 40px;
+}
+
+#cart .nav-float li img:active {
+    border: 1px solid yellow;
 }

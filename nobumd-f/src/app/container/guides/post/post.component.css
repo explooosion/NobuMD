@@ -13,6 +13,35 @@
 }
 
 
+/* 技能分析 */
+
+#skill ul {
+    margin: 20px 0 10px;
+}
+
+#skill ul li {
+    display: inline-block;
+    margin-right: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+#skill ul li img {
+    width: inherit;
+    height: inherit;
+    border: 1px solid #222;
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+#skill .skill-discript {
+    background: #111;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+
 /* 影片分享 */
 
 #post .link-check {
@@ -39,6 +68,6 @@
     margin-bottom: 20px;
 }
 
-#post .hero-score>div{
-  margin: 0 auto;
+#post .hero-score>div {
+    margin: 0 auto;
 }
