@@ -1,9 +1,11 @@
 <section id="post">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-md-12">
         <ol class="breadcrumb bread-nav">
-          <li class="breadcrumb-item"><a [routerLink]="'/guides/'">英雄攻略</a></li>
+          <li class="breadcrumb-item">
+            <a [routerLink]="'/guides/'">英雄攻略</a>
+          </li>
           <li class="breadcrumb-item active">文章發表</li>
         </ol>
       </div>
@@ -11,10 +13,11 @@
 
     <div class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-md-12 panel">
           <div class="panel-head">
             <a class="panel-control">
-              <h4><i class="fa fa-asterisk" aria-hidden="true"></i>主題資訊</h4>
+              <h4>
+                <i class="fa fa-asterisk" aria-hidden="true"></i>主題資訊</h4>
             </a>
           </div>
           <div class="panel-body container">
@@ -28,35 +31,35 @@
               <label class="col-sm-1 col-form-label">版本：</label>
               <div class="col-sm-2">
                 <select class="custom-select">
-                        <option selected>請選擇</option>
-                        <option value="20">v20</option>
-                        <option value="16">v16</option>
-                        <option value="11">v11</option>
-                  </select>
+                  <option selected>請選擇</option>
+                  <option value="20">v20</option>
+                  <option value="16">v16</option>
+                  <option value="11">v11</option>
+                </select>
               </div>
               <label class="col-sm-1 col-form-label">聯軍：</label>
               <div class="col-sm-2">
                 <select class="custom-select">
-                      <option selected>請選擇</option>
-                      <option value="20">織田軍</option>
-                      <option value="16">聯合軍</option>
-                      <option value="11">中立軍</option>
+                  <option selected>請選擇</option>
+                  <option value="20">織田軍</option>
+                  <option value="16">聯合軍</option>
+                  <option value="11">中立軍</option>
                 </select>
               </div>
               <label class="col-sm-1 col-form-label">英雄：</label>
               <div class="col-sm-2">
                 <select class="custom-select">
-                      <option selected>請選擇</option>
-                      <option value="20">德川家康</option>
-                      <option value="16">稻姬</option>
-                      <option value="11">石川數正</option>
-                      <option value="11">竹中重治</option>
-                      <option value="11">酒井忠次</option>
-                      <option value="11">井伊直政</option>
-                      <option value="11">本多忠勝</option>
-                      <option value="11">榊原康政</option>
-                      <option value="11">蜂須賀政勝</option>
-                      <option value="11">平手政秀</option>
+                  <option selected>請選擇</option>
+                  <option value="20">德川家康</option>
+                  <option value="16">稻姬</option>
+                  <option value="11">石川數正</option>
+                  <option value="11">竹中重治</option>
+                  <option value="11">酒井忠次</option>
+                  <option value="11">井伊直政</option>
+                  <option value="11">本多忠勝</option>
+                  <option value="11">榊原康政</option>
+                  <option value="11">蜂須賀政勝</option>
+                  <option value="11">平手政秀</option>
                 </select>
               </div>
             </div>
@@ -67,10 +70,11 @@
 
     <div class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-md-12 panel">
           <div class="panel-head">
             <a class="panel-control">
-              <h4><i class="fa fa-user-circle" aria-hidden="true"></i>英雄評價</h4>
+              <h4>
+                <i class="fa fa-user-circle" aria-hidden="true"></i>英雄評價</h4>
             </a>
           </div>
           <div class="panel-body container">
@@ -119,7 +123,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-12 text-center analysis-char">
+                  <div class="col-md-12 text-center analysis-char">
                     <canvas baseChart [data]="doughnutChartData" min="1" max="10" [labels]="doughnutChartLabels" [chartType]="doughnutChartType"
                       [options]="doughnutChartOption"></canvas>
                   </div>
@@ -172,7 +176,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-12 text-center analysis-char">
+                  <div class="col-md-12 text-center analysis-char">
                     <canvas baseChart [data]="pieChartData" [labels]="pieChartLabels" [chartType]="pieChartType"></canvas>
                   </div>
                 </div>
@@ -185,18 +189,19 @@
 
     <div class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-md-12 panel">
           <div class="panel-head">
             <a class="panel-control">
-              <h4><i class="fa fa-paw" aria-hidden="true"></i>技能分析</h4>
+              <h4>
+                <i class="fa fa-paw" aria-hidden="true"></i>技能分析</h4>
             </a>
           </div>
           <div class="panel-body container">
             <div class="row">
-              <div class="col-6">
+              <div class="col-md-6">
                 <!-- <button type="button" class="btn btn-primary" (click)="openCart()">新增裝備</button> -->
               </div>
-              <div class="col-6 form-group">
+              <div class="col-md-6 form-group">
                 <button type="button" class="btn btn-primary" (click)="openCart()">新增裝備</button>
                 <textarea cols="30" rows="10" class="form-control"></textarea>
                 <app-cart [active]="active" (closeCartEvent)="closeCart($event)"></app-cart>
@@ -209,15 +214,16 @@
 
     <div class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-md-12 panel">
           <div class="panel-head">
             <a class="panel-control">
-              <h4><i class="fa fa-home" aria-hidden="true"></i>起手裝備</h4>
+              <h4>
+                <i class="fa fa-home" aria-hidden="true"></i>起手裝備</h4>
             </a>
           </div>
           <div class="panel-body container">
             <div class="row">
-              <div class="col-12">
+              <div class="col-md-12">
                 <ul>
                   <li>1.發表分析(提供插入裝備圖片)</li>
                 </ul>
@@ -230,15 +236,16 @@
 
     <div class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-md-12 panel">
           <div class="panel-head">
             <a class="panel-control">
-              <h4><i class="fa fa-shield" aria-hidden="true"></i>推薦出裝</h4>
+              <h4>
+                <i class="fa fa-shield" aria-hidden="true"></i>推薦出裝</h4>
             </a>
           </div>
           <div class="panel-body container">
             <div class="row">
-              <div class="col-12">
+              <div class="col-md-12">
                 <ul>
                   <li>1.發表分析(提供插入裝備圖片)</li>
                 </ul>
@@ -251,15 +258,16 @@
 
     <div class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-md-12 panel">
           <div class="panel-head">
             <a class="panel-control">
-              <h4><i class="fa fa-gavel" aria-hidden="true"></i>技能配置</h4>
+              <h4>
+                <i class="fa fa-gavel" aria-hidden="true"></i>技能配置</h4>
             </a>
           </div>
           <div class="panel-body container">
             <div class="row">
-              <div class="col-12">
+              <div class="col-md-12">
                 <ul>
                   <li>1.直接畫好1~20等表格，讓使用者自己點順序</li>
                 </ul>
@@ -275,7 +283,8 @@
         <div class="col-sm-12 panel">
           <div class="panel-head">
             <a class="panel-control">
-              <h4><i class="fa fa-youtube-play" aria-hidden="true"></i>影片分享</h4>
+              <h4>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>影片分享</h4>
             </a>
           </div>
           <div class="panel-body container">
@@ -287,7 +296,9 @@
                 <input type="text" class="form-control" placeholder="請輸入網址">
               </div>
               <div class="form-inline col-sm-2 link-check">
-                <a href="" target="_blank"><i class="fa fa-eye fa-2x text-muted" aria-hidden="true"></i></a>
+                <a href="" target="_blank">
+                  <i class="fa fa-eye fa-2x text-muted" aria-hidden="true"></i>
+                </a>
                 <i *ngIf="false" class="fa fa-check-circle fa-2x text-success" aria-hidden="true"></i>
                 <i *ngIf="false" class="fa fa-times-circle fa-2x text-danger" aria-hidden="true"></i>
               </div>
@@ -300,7 +311,9 @@
                 <input type="text" class="form-control" placeholder="請輸入網址" value="https://youtu.be/B4VXShvB6oY">
               </div>
               <div class="form-inline col-sm-2 link-check">
-                <a href="https://youtu.be/B4VXShvB6oY" target="_blank"><i class="fa fa-eye fa-2x text-muted" aria-hidden="true"></i></a>
+                <a href="https://youtu.be/B4VXShvB6oY" target="_blank">
+                  <i class="fa fa-eye fa-2x text-muted" aria-hidden="true"></i>
+                </a>
                 <i *ngIf="true" class="fa fa-check-circle fa-2x text-success" aria-hidden="true"></i>
                 <i *ngIf="false" class="fa fa-times-circle fa-2x text-danger" aria-hidden="true"></i>
               </div>
@@ -313,7 +326,9 @@
                 <input type="text" class="form-control" placeholder="請輸入網址" value="https://google.com">
               </div>
               <div class="form-inline col-sm-2 link-check">
-                <a href="https://google.com" target="_blank"><i class="fa fa-eye fa-2x text-muted" aria-hidden="true"></i></a>
+                <a href="https://google.com" target="_blank">
+                  <i class="fa fa-eye fa-2x text-muted" aria-hidden="true"></i>
+                </a>
                 <i *ngIf="false" class="fa fa-check-circle fa-2x text-success" aria-hidden="true"></i>
                 <i *ngIf="true" class="fa fa-times-circle fa-2x text-danger" aria-hidden="true"></i>
               </div>
@@ -325,15 +340,16 @@
 
     <div class="panel-group container">
       <div class="row">
-        <div class="col-12 panel">
+        <div class="col-md-12 panel">
           <div class="panel-head">
             <a class="panel-control">
-              <h4><i class="fa fa-flash" aria-hidden="true"></i>英雄相剋</h4>
+              <h4>
+                <i class="fa fa-flash" aria-hidden="true"></i>英雄相剋</h4>
             </a>
           </div>
           <div class="panel-body container">
             <div class="row">
-              <div class="col-12">
+              <div class="col-md-12">
                 <ul>
                   <li>1.暫不開放</li>
                 </ul>

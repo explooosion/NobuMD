@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
-@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+/* @import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css); */
+
 
 /* @import url(https://fonts.googleapis.com/earlyaccess/notosansscsliced.css); */
 
@@ -18,28 +20,29 @@
 /* end of import */
 
 * {
-  font-family: 'Noto Sans TC', sans-serif;
-  /* font-family: 'Noto Sans SC Sliced', sans-serif; */
+    font-family: 'Microsoft JhengHei', sans-serif;
+    /* font-family: 'Noto Sans TC', sans-serif; */
+    /* font-family: 'Noto Sans SC Sliced', sans-serif; */
 }
 
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 section {
-  padding: 150px 0;
+    padding: 150px 0;
 }
 
 section h2 {
-  font-size: 3em;
-  margin: 0;
+    font-size: 3em;
+    margin: 0;
 }
 
 @media (max-width: 767px) {
-  section {
-    padding: 75px 0;
-  }
-  section.first {
-    padding-top: 75px;
-  }
+    section {
+        padding: 75px 0;
+    }
+    section.first {
+        padding-top: 75px;
+    }
 }

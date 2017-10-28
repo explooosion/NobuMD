@@ -2,9 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule, JsonpModule } from '@angular/http';
-import { RouterModule, Routes } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
-import { routing } from './app.routing';
+import { enableProdMode } from '@angular/core';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 /**
@@ -34,6 +34,10 @@ import { NouisliderModule } from 'ng2-nouislider';
 import { BoxComponent } from './component/box/box.component';
 import { CartComponent } from './component/cart/cart.component';
 
+import { SweetAlert2Module } from '@toverux/ngsweetalert2';
+
+enableProdMode();
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -55,11 +59,17 @@ import { CartComponent } from './component/cart/cart.component';
     FormsModule,
     HttpModule,
     JsonpModule,
-    routing,
+    AppRoutingModule,
     ChartsModule,
-    NouisliderModule
+    NouisliderModule,
+    SweetAlert2Module.forRoot({
+      // buttonsStyling: false,
+      // customClass: 'modal-content',
+      // confirmButtonClass: 'btn btn-lg btn-primary',
+      // cancelButtonClass: 'btn btn-lg'
+    }),
   ],
-  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

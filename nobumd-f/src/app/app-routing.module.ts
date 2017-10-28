@@ -1,5 +1,3 @@
-import { ModuleWithProviders } from '@angular/core';
-
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -9,7 +7,7 @@ import { DetailComponent } from './container/guides/detail/detail.component';
 import { ArticleComponent } from './container/guides/article/article.component';
 import { PostComponent } from './container/guides/post/post.component';
 
-const appRoutes: Routes = [
+const routes: Routes = [
   { path: 'guides', component: GuidesComponent },
   { path: 'guides/article/charactor/:id', component: ArticleComponent },
   { path: 'guides/article/:id', component: DetailComponent },
@@ -18,12 +16,10 @@ const appRoutes: Routes = [
   { path: '**', component: HomeComponent },
 ];
 
-export const routing: ModuleWithProviders =
-  RouterModule.forRoot(
-    appRoutes,
-    {
-      // enableTracing: true, // <-- debugging purposes only
-      useHash: true
-    }
-  );
 
+@NgModule({
+  // useHash = true , 防止 http://localhost/# 發生跳轉
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
