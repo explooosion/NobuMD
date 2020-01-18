@@ -1,5 +1,5 @@
 #detail {
-  background-image: url('/img/background.jpg');
+  background-image: url('https://robby570.tw/NobuMD/img/background.jpg');
   background-position: center top;
   background-size: 100%;
   background-attachment: fixed;
@@ -19,7 +19,7 @@
   padding-top: 10px;
   margin-bottom: 20px;
   border-radius: 6px;
-  background-image: url('/img/article/box/demo.jpg');
+  background-image: url('https://robby570.tw/NobuMD/img/article/box/demo.jpg');
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100% auto;
