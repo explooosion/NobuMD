@@ -44,7 +44,7 @@
 
     <ul class="guides-group">
       <li class="guides-box" *ngFor="let charactor of charactorArr | charactorSearch:filterkey">
-        <a [routerLink]="'/guides/article/charactor/'+ charactor.name" routerLinkActive="active" [style.backgroundImage]="'url(/img/hero/' + charactor.img  +')'">
+        <a [routerLink]="'/guides/article/charactor/'+ charactor.name" routerLinkActive="active" [style.backgroundImage]="'url(https://robby570.tw/NobuMD/img/hero/' + charactor.img  +')'">
           <span class="guides-name">{{ charactor.name }}</span>
         </a>
       </li>

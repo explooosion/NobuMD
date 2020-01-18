@@ -11,14 +11,14 @@
     </div>
     <hr>
     <div class="search-box">
-      <select class="custom-select"> 
+      <select class="custom-select">
         <option value="0" selected>評分</option>
         <option value="1">瀏覽次數</option>
         <option value="2">更新日期</option>
-        <option value="3">發表日期</option> 
+        <option value="3">發表日期</option>
       </select>
-      <select class="custom-select"> 
-        <option value="0" selected>All</option> 
+      <select class="custom-select">
+        <option value="0" selected>All</option>
         <option value="1">Top</option>
         <option value="2">Mid</option>
         <option value="3">Bottom</option>
@@ -32,7 +32,7 @@
           <div class="container">
             <div class="row">
               <div class="col-2">
-                <a class="guides-photo" [style.backgroundImage]="'url(/img/hero/' + article.img  +')'" [routerLink]="'/guides/article/'+ article.id"
+                <a class="guides-photo" [style.backgroundImage]="'url(https://robby570.tw/NobuMD/img/hero/' + article.img  +')'" [routerLink]="'/guides/article/'+ article.id"
                   routerLinkActive="active">
                   <span class="guides-name">{{ article.charactor }}</span>
                 </a>
