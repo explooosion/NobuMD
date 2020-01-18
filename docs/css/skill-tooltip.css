@@ -1,0 +1,34 @@
+.tooltip {
+  z-index: 99999 !important;
+}
+
+.tooltip>.tooltip-inner {
+  border-radius: 6px;
+  padding: 15px 20px;
+}
+
+.tip {
+  text-align: left;
+  font-family: 'Microsoft JhengHei', sans-serif;
+  letter-spacing: 1px;
+}
+
+.tip .tip-name {
+  display: block;
+  margin-left: 0;
+  color: #00CFBC;
+}
+
+.tip .tip-content {
+  color: #eee;
+}
+
+.tip .tip-step {
+  display: block;
+  color: #FBFE01;
+}
+
+.tip .tip-unic {
+  display: block;
+  color: #FF3CFE;
+}

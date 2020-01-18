@@ -1,0 +1,43 @@
+[{
+    "code": "a01-1",
+    "key": "D",
+    "name": "天下之勢",
+    "tip": "<div class='tip'><strong class='tip-name'>天下之勢</strong><span class='tip-content'>傷害減少10%，並將減少的傷害轉為補充自身雙倍的法力。</span></div>",
+    "src": "/img/spellicons/custom/A01/a01d.png"
+  },
+  {
+    "code": "a01-2",
+    "key": "W",
+    "name": "東照權現",
+    "tip": "<div class='tip'><strong class='tip-name'>東照權現</strong><span class='tip-content'>恢復周圍友軍<em class='tip-step'>(75/120/165/210)</em>的生命值 ，並使他們增加35% 攻速，持續4秒。</span></div>",
+    "src": "/img/spellicons/custom/A01/a01w.png"
+  },
+  {
+    "code": "a01-3",
+    "key": "E",
+    "name": "天羅地網",
+    "tip": "<div class='tip'><strong class='tip-name'>天羅地網</strong><span class='tip-content'>恢復周圍友軍<em class='tip-step'>(75/120/165/210)</em>的生命值 ，並使他們增加35% 攻速，持續4秒。</span></div>",
+    "src": "/img/spellicons/meepo_earthbind.png"
+  },
+  {
+    "code": "a01-4",
+    "key": "R",
+    "name": "雷霆刃",
+    "tip": "<div class='tip'><strong class='tip-name'>雷霆刃</strong><span class='tip-content'>召喚雷霆的威力，對周圍的敵人造成<em class='tip-step'>(75/150/225/300)</em>魔法傷害，並且在接下來5秒，攻擊時有50% 的機會，對擊中目標周圍310內的所有敵軍，額外造成<em class='tip-step'>(80/110/140/170)</em>點對魔免減半的真實傷害。</span></div>",
+    "src": "/img/spellicons/zuus_lightning_bolt.png"
+  },
+  {
+    "code": "a01-5",
+    "key": "T",
+    "name": "三河魂",
+    "tip": "<div class='tip'><strong class='tip-name'>三河魂</strong><span class='tip-content'>施放自身的王者之氣，能增加周圍1500友軍<em class='tip-step'>(15/25/35)</em>的防禦，減少<em class='tip-step'>(15/20/25)</em>% 物理傷害與加快生命回復速率<em class='tip-step'>(5/6/7)</em>% ，持續7秒。</span></div>",
+    "src": "/img/spellicons/custom/icon_128x128_119.png"
+  },
+  {
+    "code": "a01-6",
+    "key": "B",
+    "name": "屬性加乘",
+    "tip": "<div class='tip'><strong class='tip-name'>屬性加乘</strong><span class='tip-content'>永久性的提升<em class='tip-step'>(3/6/9/12)</em>靈活、智慧和力量。</span></div>",
+    "src": "/img/spellicons/plus.png"
+  }
+]

@@ -1,0 +1,63 @@
+.container.panel-group {
+  display: block;
+  padding: 20px 35px;
+  margin-bottom: 20px;
+  background-color: #333;
+  border-radius: 6px;
+}
+
+.panel-group .panel {
+  background-color: #1A1A1A;
+  border-radius: 6px;
+  padding-bottom: 20px;
+}
+
+.panel-group .panel .panel-body {
+  overflow-y: hidden;
+}
+
+.panel-group .panel .panel-toggle {
+  height: 0px;
+}
+
+.panel-group .panel .panel-head {
+  padding: 18px 10px;
+  margin-bottom: 20px;
+  height: 60px;
+  border-bottom: 1px solid #333;
+}
+
+.panel .panel-control i {
+  margin-right: 10px;
+}
+
+.panel-group .panel .panel-body .during {
+  margin: 10px 0 0 0;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+/* 基本樣板 */
+
+
+/*
+    <div class="panel-group container">
+      <div class="row">
+        <div class="col-12 panel">
+          <div class="panel-head">
+            <a class="panel-control">
+              <h4><i class="fa fa-paw" aria-hidden="true"></i>文章主題</h4>
+            </a>
+          </div>
+          <div class="panel-body container">
+            <div class="row">
+              <div class="col-5"></div>
+              <div class="col-7"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+*/

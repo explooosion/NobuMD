@@ -1,0 +1,15 @@
+/* Temporary navbar container fix */
+
+.navbar-toggler {
+  z-index: 1;
+}
+
+@media (max-width: 576px) {
+  nav>.container {
+    width: 100%;
+  }
+}
+
+.nav-float>li {
+  display: inline-block;
+}

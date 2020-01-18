@@ -1,0 +1,15 @@
+/* bread-nav */
+
+.breadcrumb.bread-nav {
+  margin-bottom: 0.5em;
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+.breadcrumb.bread-nav .breadcrumb-item a {
+  color: #eabc00;
+}
+
+.breadcrumb.bread-nav .breadcrumb-item.active a {
+  color: #999;
+}

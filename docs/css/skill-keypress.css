@@ -1,0 +1,50 @@
+/* 技能圖片左下角提供鍵盤對應 */
+
+
+/*
+  1. element.skill-keypress > img
+  2. ul > li.skill-keypress > img
+  3. element.skill-keypress ( not img )
+*/
+
+.skill-keypress {
+  position: relative;
+}
+
+.skill-keypress::before {
+  content: '';
+  z-index: 999;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 40%;
+  width: 40%;
+  color: #eee;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.skill-keypress[data-key='D']::before {
+  content: 'D';
+}
+
+.skill-keypress[data-key='W']::before {
+  content: 'W';
+}
+
+.skill-keypress[data-key='E']::before {
+  content: 'E';
+}
+
+.skill-keypress[data-key='R']::before {
+  content: 'R';
+}
+
+.skill-keypress[data-key='T']::before {
+  content: 'T';
+}
+
+.skill-keypress[data-key='B']::before {
+  content: 'B';
+}

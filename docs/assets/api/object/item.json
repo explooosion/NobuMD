@@ -1,0 +1,27 @@
+[{
+  "code": "st_b01",
+  "name": "褶裙",
+  "tip": "<div class='tip'><strong class='tip-name'>褶裙</strong><span class='tip-content'>移動速度+45。<em class='tip-unic'>唯一持有，移動速度不得累計。</span></div>",
+  "src": "/img/items/custom/pleated_skirt.png"
+}, {
+  "code": "st_b05",
+  "name": "疾風衣",
+  "tip": "<div class='tip'><strong class='tip-name'>疾風衣</strong><span>攻速+25%。</span></div>",
+
+  "src": "/img/items/custom/speed_clothes.png"
+}, {
+  "code": "st_a05",
+  "name": "長槍",
+  "tip": "<div class='tip'><strong class='tip-name'>長槍</strong><span>攻擊傷害+14。</span></div>",
+  "src": "/img/items/custom/spear.png"
+}, {
+  "code": "st_a05",
+  "name": "軍糧丸",
+  "tip": "<div class='tip'><strong class='tip-name'>軍糧丸</strong><span>回復420生命值和210法力。可使用2次。<br>與當世具足共用冷卻時間。</span></div>",
+  "src": "/img/items/custom/rations.png"
+}, {
+  "code": "ct_d01",
+  "name": "暗部長靴",
+  "tip": "<div class='tip'><strong class='tip-name'>暗部長靴</strong><span>移動速度+90，攻擊傷害+30，攻速+30% 。<br>【使用】在5秒內獲得魔法免疫。<em class='tip-unic'>移動速度不得累計。</em></span></div>",
+  "src": "/img/items/custom/dark_boots.png"
+}]
