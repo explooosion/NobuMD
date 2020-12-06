@@ -1,7 +1,7 @@
 ## 一、NobuMD
 ![Dota2 信長的野望](https://raw.githubusercontent.com/explooosion/NobuMD/master/nobumd-f/src/img/banner2.jpg)  
   
-官網：[Dota2 信長的野望](http://www.dota2nobu.com/zhtw/list_hero)     
+官網：[Dota2 信長的野望](https://nobu.gg/)     
 
 本專案：[Dota2 信長-綜合討論區](https://devp-6a596.firebaseapp.com/)
 
