@@ -3,7 +3,7 @@
   
 官網：[Dota2 信長的野望](https://nobu.gg/), [Dota2 信長的野望 2](https://nobu.gg/nobu/zhtw/list_hero)
 
-本專案：[Dota2 信長-綜合討論區](https://devp-6a596.firebaseapp.com/)
+本專案：[Dota2 信長-綜合討論區](https://robby570.tw/NobuMD)
 
 ## 二、說明  
 本專案為針對攻略以及討論區進行開發，　　
